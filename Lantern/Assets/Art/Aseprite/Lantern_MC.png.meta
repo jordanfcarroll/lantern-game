@@ -1,0 +1,3375 @@
+fileFormatVersion: 2
+guid: 9b82685e456a101449ce27690d7fa404
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Lantern_MC 0
+    21300002: Lantern_MC 1
+    21300004: Lantern_MC 2
+    21300006: Lantern_MC 3
+    21300008: Lantern_MC 4
+    21300010: Lantern_MC 5
+    21300012: Lantern_MC 6
+    21300014: Lantern_MC 7
+    21300016: Lantern_MC 8
+    21300018: Lantern_MC 9
+    21300020: Lantern_MC 10
+    21300022: Lantern_MC 11
+    21300024: Lantern_MC 12
+    21300026: Lantern_MC 13
+    21300028: Lantern_MC 14
+    21300030: Lantern_MC 15
+    21300032: Lantern_MC 16
+    21300034: Lantern_MC 17
+    21300036: Lantern_MC 18
+    21300038: Lantern_MC 19
+    21300040: Lantern_MC 20
+    21300042: Lantern_MC 21
+    21300044: Lantern_MC 22
+    21300046: Lantern_MC 23
+    21300048: Lantern_MC 24
+    21300050: Lantern_MC 25
+    21300052: Lantern_MC 26
+    21300054: Lantern_MC 27
+    21300056: Lantern_MC 28
+    21300058: Lantern_MC 29
+    21300060: Lantern_MC 30
+    21300062: Lantern_MC 31
+    21300064: Lantern_MC 32
+    21300066: Lantern_MC 33
+    21300068: Lantern_MC 34
+    21300070: Lantern_MC 35
+    21300072: Lantern_MC 36
+    21300074: Lantern_MC 37
+    21300076: Lantern_MC 38
+    21300078: Lantern_MC 39
+    21300080: Lantern_MC 40
+    21300082: Lantern_MC 41
+    21300084: Lantern_MC 42
+    21300086: Lantern_MC 43
+    21300088: Lantern_MC 44
+    21300090: Lantern_MC 45
+    21300092: Lantern_MC 46
+    21300094: Lantern_MC 47
+    21300096: Lantern_MC 48
+    21300098: Lantern_MC 49
+    21300100: Lantern_MC 50
+    21300102: Lantern_MC 51
+    21300104: Lantern_MC 52
+    21300106: Lantern_MC 53
+    21300108: Lantern_MC 54
+    21300110: Lantern_MC 55
+    21300112: Lantern_MC 56
+    21300114: Lantern_MC 57
+    21300116: Lantern_MC 58
+    21300118: Lantern_MC 59
+    21300120: Lantern_MC 60
+    21300122: Lantern_MC 61
+    21300124: Lantern_MC 62
+    21300126: Lantern_MC 63
+    21300128: Lantern_MC 64
+    21300130: Lantern_MC 65
+    21300132: Lantern_MC 66
+    21300134: Lantern_MC 67
+    21300136: Lantern_MC 68
+    21300138: Lantern_MC 69
+    21300140: Lantern_MC 70
+    21300142: Lantern_MC 71
+    21300144: Lantern_MC 72
+    21300146: Lantern_MC 73
+    21300148: Lantern_MC 74
+    21300150: Lantern_MC 75
+    21300152: Lantern_MC 76
+    21300154: Lantern_MC 77
+    21300156: Lantern_MC 78
+    21300158: Lantern_MC 79
+    21300160: Lantern_MC 80
+    21300162: Lantern_MC 81
+    21300164: Lantern_MC 82
+    21300166: Lantern_MC 83
+    21300168: Lantern_MC 84
+    21300170: Lantern_MC 85
+    21300172: Lantern_MC 86
+    21300174: Lantern_MC 87
+    21300176: Lantern_MC 88
+    21300178: Lantern_MC 89
+    21300180: Lantern_MC 90
+    21300182: Lantern_MC 91
+    21300184: Lantern_MC 92
+    21300186: Lantern_MC 93
+    21300188: Lantern_MC 94
+    21300190: Lantern_MC 95
+    21300192: Lantern_MC 96
+    21300194: Lantern_MC 97
+    21300196: Lantern_MC 98
+    21300198: Lantern_MC 99
+    21300200: Lantern_MC 100
+    21300202: Lantern_MC 101
+    21300204: Lantern_MC 102
+    21300206: Lantern_MC 103
+    21300208: Lantern_MC 104
+    21300210: Lantern_MC 105
+    21300212: Lantern_MC 106
+    21300214: Lantern_MC 107
+    21300216: Lantern_MC 108
+    21300218: Lantern_MC 109
+    21300220: Lantern_MC 110
+    21300222: Lantern_MC 111
+    21300224: Lantern_MC 112
+    21300226: Lantern_MC 113
+    21300228: Lantern_MC 114
+    21300230: Lantern_MC 115
+    21300232: Lantern_MC 116
+    21300234: Lantern_MC 117
+    21300236: Lantern_MC 118
+    21300238: Lantern_MC 119
+    21300240: Lantern_MC 120
+    21300242: Lantern_MC 121
+    21300244: Lantern_MC 122
+    21300246: Lantern_MC 123
+    21300248: Lantern_MC 124
+    21300250: Lantern_MC 125
+    21300252: Lantern_MC 126
+    21300254: Lantern_MC 127
+    21300256: Lantern_MC 128
+    21300258: Lantern_MC 129
+    21300260: Lantern_MC 130
+    21300262: Lantern_MC 131
+    21300264: Lantern_MC 132
+    21300266: Lantern_MC 133
+    21300268: Lantern_MC 134
+    21300270: Lantern_MC 135
+    21300272: Lantern_MC 136
+    21300274: Lantern_MC 137
+    21300276: Lantern_MC 138
+    21300278: Lantern_MC 139
+    21300280: Lantern_MC 140
+    21300282: Lantern_MC 141
+    21300284: Lantern_MC 142
+    21300286: Lantern_MC 143
+    21300288: Lantern_MC 144
+    21300290: Lantern_MC 145
+    21300292: Lantern_MC 146
+    21300294: Lantern_MC 147
+    21300296: Lantern_MC 148
+    21300298: Lantern_MC 149
+    21300300: Lantern_MC 150
+    21300302: Lantern_MC 151
+    21300304: Lantern_MC 152
+    21300306: Lantern_MC 153
+    21300308: Lantern_MC 154
+    21300310: Lantern_MC 155
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lantern_MC 0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 486
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8d803eb6671824bbc8dcf734b8ef8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 486
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dbafb4889634614f893b829a118b705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 486
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb856b6febfc5c48aed988a2ed44908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 486
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7b87145f3e390459def4aaecec7a37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 486
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9064f8646d948d449bb1fa4d9354971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 486
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892b39574a64a284ea1f9f82f9751dee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 486
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0544aa0a7dfdd5f4ea96e298d3c26f09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 486
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be72a05727dfbcf4199d5b17927a80f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 486
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b29ace2562e22143be978deb63ae26f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 486
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa8cf9ddc43b9f40b0401379a12d7c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 486
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5129580f68107c4ca2eaaa58d844461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 486
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f115ef2c2707e5448d28f6181851f3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 486
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5b116eae34fa144b6a4462d2a6f033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 486
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0879f5e7da7f6d54c9ba40d9f60f5e3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 486
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745e2b9f437380341ad93e5bfababbc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 486
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69d7d5bd90f1664eb52760f8fc50c7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 460
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d51efadfe8ef242a0950199160d081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 460
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecfc003ab5b5b6042bc12c72f3d7f272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 460
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb722143b33161f40a85676acfb06e9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 460
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73a899dd53034b438c7f7e50799d42f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 460
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8d014f1382c954b84e967d4488ff7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 460
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba451d5ccae040d41b5507a74914b4c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 460
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266e46ba1b2efed4b9bcb31335df90fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 460
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2c8ca5203b3214bb20b98509500581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 460
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090cfc0664bd70748831d1dd1eacba1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 460
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0233eebf91f47d498649a0dc76454cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 460
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5628f9e0196f6ee4d9cdc330a5f4dd5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 27
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 460
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea044568b9856c4a9e4f8eac987c261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 460
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072129b1757859e46890d03a4f2100f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 29
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 460
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3802ef862a2ce4f8ec7202d8a0bf22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 30
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 460
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90fdc9d5e7598e4ea1a0840b4b6d18b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 460
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57deacd25ac940b468979dbc0f6e4970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 434
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8030b3ba041a164b9ef09cc2e95e2d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 434
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df820695b8695f42b1d89b740944e73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 434
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b344003e82107f46a1cf2f674644c4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 434
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3afbe6a646964b4abcf4c5d20abe35e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 434
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c721cfb8fb4cd4985dfbd4c1846d7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 434
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87113b98a0e7154fb43cdc126758b4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 434
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b36460e2045a44eb09127d71ced8da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 434
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a259296e938112148ad4b21ca437d1ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 434
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b40c7a766058c4dbf323a5617e9c84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 41
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 434
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d995b9397e2b464e814764b0bc9ad1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 42
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 434
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2495874624b3e46aa7249e898b8b45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 43
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 434
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5003cefc0ad8274e8fa946d75a48d64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 434
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ef7bc21d532c149bc957cb6449f0af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 45
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 434
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2dd78299a1d214f8e4406a16fbd561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 434
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e94e0bd90b3c1f41870acc5711eb1cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 47
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 434
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d93e157ca1ec2c4d86bcc4f5f490448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 408
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5a4bf8642d8ac4cabeb570dced8916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 408
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4911c18b120f28044a30ea4e1648f41a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 408
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5658025a9d3197344ad5cdf3839dff35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 408
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a46ebc7814520a419da6a97e8e0412f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 408
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e323641b8321b0141bc463f4dcbfc373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 408
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6604d7410824743a51baf7d60a067f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 408
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9314ccc784e68fb40b053b67d7248466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 408
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88ce432edf041640b98759c02113190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 408
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a45cffe80337b6448e68a8ff58d24c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 57
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 408
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb26fb73f2105d44ba16d2fb58f3ef57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 408
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd30eeee9f86da49b1e02baed8d588a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 59
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 408
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bac64cc536b714db04d8e1f7288eff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 60
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 408
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e53ab3a7a7b2864f8ff9e3c04646164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 61
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 408
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15791cf7fecc11459d41f0df1acc228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 62
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 408
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3406d298a83576d4ba0ed5210ce19000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 63
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 408
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66fd9de3d7fe1d46afa7306f636e468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 382
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831432a31c738584983808ae5497b156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 382
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4ec2c50634d654cbf5c0fd764a34c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 382
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442de269dab0ab14ea181a00cb9e05d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 382
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4d039596b56c540a4182daa5baade2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 382
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ce45a53c61217448c5e5c35440d743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 382
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288b23797a3da4248aa60d6f97eec7cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 70
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 382
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae74d6012a8bac845af51d2706de4dd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 71
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 382
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fda1ab338567d045a73daedf8e9fdb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 72
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 382
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8d0fa24c6d87b4d8d38031a819a338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 73
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 382
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef43067c16a8c146a54713ed5f8f96e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 382
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8f3d5cc555444439106592645b93cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 75
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 382
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07293795105d5a34783553269b09eea3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 382
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a77c4417e8b74d428419e99e3bd4ada
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 77
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 382
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f29efa29a2a614489a530f09c33dfaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 78
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 382
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee9c42ac07d3ed479837af11ed29faf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 79
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 382
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f890849ec2f5149ab7a94c84f71572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 356
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2adcf788352e24385d4d1fc8c2de50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 356
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271927f303b8b5242a40c18dee08c8f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 356
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009a12c4c560d5148a4b8ffdb29c31b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 83
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 356
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a532be5c32d244e42b5117abee330c49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 84
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 356
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de47a9b079dbac4d91b1579bc6d6425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 85
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 356
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a95139012988b49ba36c651bdf410f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 356
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4ecd24bcd759340a1aff8730b94080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 87
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 356
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0031f008ffa5d419a0f290e6c9ad23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 88
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 356
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b2602d50d5a4c7429532406283c1326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 89
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 356
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fe0ec2e869eb54e9bd96c5753c3f55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 90
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 356
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995a9da70544e5d4c9ddf62e94f9588b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 91
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 356
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e285ba943cea54c91e17eba1b42b1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 92
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 356
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7e136a2b6efd24d99aaae0ca68cdf8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 93
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 356
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7ec398c2f0ff442a4f614410be5093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 356
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ae1ea39dbd3964fb7a64c864d44d43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 95
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 356
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1ab9dd6851a6a4d96487650fccf79e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e232e3cf3a83a4783671dbbf856839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 97
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 330
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3f54ab54c7d95438cf1a0f622bfd7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 98
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 330
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a296929e9fc3a3b46aa8786781a883ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 99
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 330
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa67bec4e01d0540b029b054e43331c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 100
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 330
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74989cc50a9a6314aa0909254dddc6b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 101
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 330
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935ceeb9f9913254180806269977bfc7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 102
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 330
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e03dc1189244a143b43b63386ee35fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 103
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 330
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956da8a1412710247967c303ed798b92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 104
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 330
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e089c41e9601bab47be6988f4708ebda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 105
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 330
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945a9ee5169d528438c80504c4147df1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 106
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 330
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373b21ddbcc20c94bb6560c185cec00b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 107
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 330
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e780b4c8e04734180d0eb88ee7b98b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 330
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fca0bb0718c52b4899bc362795962b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 109
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 330
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a067a65ee3e71e43a3be8d5dc4975e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 110
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 330
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5d549b6a1ef3448a705a2d98822b65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 111
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 330
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a1484f5e418564ebddfc2abdde8ace
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8376212b65ff8f4fa2698e1aef79de0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 113
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 304
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052ae252156c4a4468d0802c52dace7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 114
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 304
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23908240a4d3b6748b092e6da58d8b07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 115
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 304
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd7f93475f847b4eb400db793b05069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 304
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0348db6f9d6615941aa402dfbdf300fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 117
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 304
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748690f86d03a29478007983a1476a72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 118
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 304
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22a819d3d2b8b94b90765d560a826cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 119
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 304
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd6a8ea553e146468494cd68c745e1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 120
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 304
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15d86e89c531b24a9bec722a7d1fdc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 121
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 304
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cc28d325bbac24680c1eb74f27144b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 122
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 304
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc96c33f9fbb764580cfa43e4997cb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 123
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 304
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16595daacee7654ea3dd597a95a7721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 124
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 304
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951e096c4a3c1bc47a671c62e14ecfaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 125
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 304
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47210682f5fd14d44b97e9dad71b6ec9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 126
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 304
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd07c3a3a0ff794394b3723d6c7592f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 127
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 304
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e6c77bc2b2e0840b898a1abbfcf25a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 278
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81cd97c6bae4e164b96673d1be5696e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 129
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 278
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d75a0a12a3a91429bc6f9d613cd74a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 130
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 278
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841dbe0af379c8f488fc618c6efbac73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 131
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 278
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1619cfc44eae81b43a4f1016c4ef8148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 132
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 278
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec4d458896c2e44d8a0925987b43ba6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 133
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 278
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee1608ad30b97743856d33f7b071993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 134
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 278
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcfc1fd9c05aded4e800f10d12d23f35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 135
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 278
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddc6342f925d8344a288b1f78d4fe77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 136
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 278
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f37b0ce49423c4dbbe830cc2349260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 137
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 278
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9fcac2e6b0bc8248a4ea6a90bbe4e56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 138
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 278
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3cd1b13920045439427ad4aabaab18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 139
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 278
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1235c8870ea743a4a8bcb685a24c939c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 140
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 278
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d05e8b38f1c21418de837c8f382e52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 141
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 278
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b4508ab0fc61a478014fd27360516e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 142
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 278
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5c5ded54bbc234687b07cf12c60f13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 143
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 278
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd746d94b1ab464db8f8bb640479df9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec935630837ae94089e529d4e813c69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 145
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 252
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32c52dff14a3034cb8ca2dedc4274aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 146
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 252
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a9d8d9bcadcf848b9990f385109ed7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 147
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 252
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c12d25b10359846b9b0634cf5838e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 252
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a30e0a23308b7b4aaeb6ad47857aa14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 149
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 252
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37cdd970e611b4448b2f4f105d2f16c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 150
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 252
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9261d69baaa31fb489edc3b76c723422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 151
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 252
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8b331a40e6ea840bdb03bb012b26cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 152
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 252
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845f1a0942599b74d9980637d87f5286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 153
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 252
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87c1c66971ddf643b394211e9017ecb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 154
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 252
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9a1e5e5458d8444963ab7f85f93a7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_MC 155
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 252
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8632df0a17e9244a8ecabfae91d960e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e3509b15431a9b24598b572cab5233b2
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
