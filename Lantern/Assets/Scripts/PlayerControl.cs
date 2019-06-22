@@ -384,7 +384,7 @@ public class PlayerControl : MonoBehaviour {
     }
 
     public void PlayFootstep () {
-        FindObjectOfType<AudioManager>().Play("Player_Footstep");
+        // FindObjectOfType<AudioManager>().Play("Player_Footstep");
     }
 
 

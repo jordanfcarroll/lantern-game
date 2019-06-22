@@ -25,7 +25,7 @@ public class CoinFieldResolver : MonoBehaviour {
         {
             CoinfieldParent.GetComponent<CoinField>().resolve();
             triggered = true;
-            FindObjectOfType<AudioManager>().Play("Bell_1");
+            FindObjectOfType<AudioManager>().Play("Shatter");
             if (FindObjectOfType<GameManager_1>().coins > 0) {
                 StartCoroutine(triggerShatter());
                 FindObjectOfType<GameManager_1>().coins--;

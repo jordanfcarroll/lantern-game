@@ -2359,7 +2359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   glows: 0
-  lanternId: w_d
+  lanternId: 
 --- !u!114 &76039590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3016,7 +3016,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bf835e1bc273724d89e274648c988ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lightIntensity: 0.5
+  lightIntensity: 0.25
   tileId: a
 --- !u!1 &89272611
 GameObject:
@@ -36940,7 +36940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newScene: 
-  Cutscene_WestPassageOpen: {fileID: 1565812415}
+  Cutscene_WestPassageOpen: {fileID: 0}
 --- !u!61 &94154458
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37305,8 +37305,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a286fa25c991e249b8c90fa0b855310, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intensity: 1
-  changeSpeed: 1
+  intensity: 0
+  changeSpeed: 0
 --- !u!108 &99992921
 Light:
   m_ObjectHideFlags: 0
@@ -37594,6 +37594,11 @@ Prefab:
     - target: {fileID: 4766870511761576, guid: 8a60705a65018e247873418feb93a71a, type: 2}
       propertyPath: m_RootOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114110375609104958, guid: 8a60705a65018e247873418feb93a71a,
+        type: 2}
+      propertyPath: duration
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a60705a65018e247873418feb93a71a, type: 2}
@@ -38385,13 +38390,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bc27a87beef82c479dfc1a09517ae39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lockedSound: {fileID: 1422732294}
-  openSound: {fileID: 664651069}
+  lockedSound: {fileID: 0}
+  openSound: {fileID: 0}
   unlockSound: {fileID: 0}
-  closeSound: {fileID: 1611004309}
+  closeSound: {fileID: 0}
   scarySound: {fileID: 0}
-  isLocked: 1
-  keyName: east_key_misc_1
+  isLocked: 0
+  keyName: red_key
   isOpen: 0
 --- !u!114 &121696685
 MonoBehaviour:
@@ -38406,8 +38411,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: 
-    sentences:
-    - The door is locked.
+    sentences: []
     readings: []
 --- !u!4 &121696693 stripped
 Transform:
@@ -39237,7 +39241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   glows: 0
-  lanternId: w_d
+  lanternId: 
 --- !u!114 &146066956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41505,9 +41509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: 
-    sentences:
-    - A window looks onto a moonlit courtyard.
-    - There seems to be a a dark figure moving near the center...
+    sentences: []
     readings: []
 --- !u!114 &222254486
 MonoBehaviour:
@@ -41520,9 +41522,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826591abb524902418935ad8a64baefc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasDialogue: 1
+  hasDialogue: 0
   disabledAfterInteract: 0
-  hasInteractTooltip: 0
+  hasInteractTooltip: 1
 --- !u!61 &222254487
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42759,8 +42761,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: 
-    sentences:
-    - An old bookshelf. There is an imprint in the dust of a large book removed recently...
+    sentences: []
     readings: []
 --- !u!114 &265740795
 MonoBehaviour:
@@ -42773,10 +42774,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d03c9be87213aec499b74eae4273f22d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasDialogue: 1
+  hasDialogue: 0
   disabledAfterInteract: 0
-  hasInteractTooltip: 0
-  cutscene: {fileID: 1381006960}
+  hasInteractTooltip: 1
+  cutscene: {fileID: 0}
 --- !u!61 &265740796
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43654,7 +43655,7 @@ GameObject:
   - component: {fileID: 281739189}
   - component: {fileID: 281739190}
   m_Layer: 0
-  m_Name: East_Audio_Trigger
+  m_Name: East_Ambient_Audio_Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43706,7 +43707,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 281739187}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a211e9cbf12bcf64ebf9492ad330a523, type: 3}
+  m_Script: {fileID: 11500000, guid: e58f87010db4ae04aa37793c4f97b20e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &283648713 stripped
@@ -46139,8 +46140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: 
-    sentences:
-    - An old bookshelf.
+    sentences: []
     readings: []
 --- !u!114 &346574628
 MonoBehaviour:
@@ -46153,7 +46153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826591abb524902418935ad8a64baefc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasDialogue: 1
+  hasDialogue: 0
   disabledAfterInteract: 0
   hasInteractTooltip: 1
 --- !u!61 &346574629
@@ -47023,8 +47023,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: 
-    sentences:
-    - A small silver coin.
+    sentences: []
     readings: []
 --- !u!61 &382066404
 BoxCollider2D:
@@ -47062,8 +47061,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4f31ed9a38df844da11953e97726821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasDialogue: 1
-  disabledAfterInteract: 1
+  hasDialogue: 0
+  disabledAfterInteract: 0
 --- !u!114 &382066406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47075,8 +47074,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30be13e9ae3681840aeac3365a9a6cb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Coin
-  id: coin
+  name: 
+  id: 
 --- !u!95 &382066407
 Animator:
   serializedVersion: 3
@@ -47578,7 +47577,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &393414322
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47722,8 +47721,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
   patrols: []
-  updateRate: 30
-  speed: 1
+  updateRate: 0
+  speed: 0
   pathIsEnded: 0
   nextWaypointDistance: 3
 --- !u!82 &393414328
@@ -48775,8 +48774,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dca5611168151e740bd03068ccb607ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  glows: 1
-  lanternId: w_d
+  glows: 0
+  lanternId: 
 --- !u!114 &427120897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50149,7 +50148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468ce9f18332cea4f882b433f3fe966b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasDialogue: 1
+  hasDialogue: 0
   disabledAfterInteract: 0
   Cutscene_OpenAltar: {fileID: 0}
 --- !u!1001 &479020011
@@ -51085,10 +51084,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   overwriteDefaultCameraBehavior: 0
-  player: {fileID: 588154023}
+  player: {fileID: 0}
   previousTarget: {fileID: 0}
-  followTarget: {fileID: 588154023}
-  moveSpeed: 2
+  followTarget: {fileID: 0}
+  moveSpeed: 0
   defaultZoom: 3
 --- !u!20 &519420031
 Camera:
@@ -51154,7 +51153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 11400000, guid: afca1799a002bde40a240f3b78b48645, type: 2}
+  profile: {fileID: 0}
 --- !u!4 &521086909 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4920160351112136, guid: f943b24db5af34d468b9e7be245f9931,
@@ -51402,6 +51401,34 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94d2f668a8daae14c99d63baf7fa0270, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &526178747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 526178748}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &526178748
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 526178747}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 29.65, y: 37.05, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2091242775}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &528221829
 GameObject:
   m_ObjectHideFlags: 0
@@ -53366,9 +53393,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 0.8
-  runSpeed: 1.2
-  focusSpeed: 0.4
-  dimSpeed: 0.1
+  runSpeed: 0
+  focusSpeed: 0
+  dimSpeed: 0
   canMove: 1
   closestEnemyDistance: 1000
 --- !u!212 &588154030
@@ -53642,8 +53669,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: 
-    sentences:
-    - ' - There is a worn, red key tucked between the pages. - '
+    sentences: []
     readings: []
 --- !u!1001 &594180863
 Prefab:
@@ -55301,7 +55327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shouldLockCamera: 1
-  shouldFade: 0
+  shouldFade: 1
   cameraPoint: {fileID: 229728051}
   triggerSounds: []
 --- !u!61 &649668292
@@ -55421,8 +55447,8 @@ MonoBehaviour:
   BurnInTileEastMirror: {fileID: 1443099860}
   BurnInTileEastLight: {fileID: 937989700}
   BurnInTileEastMirrorLight: {fileID: 6140964}
-  East_Burn_Hum: {fileID: 1955847876}
-  East_Burn_Hum_Mirror: {fileID: 1862431380}
+  East_Burn_Hum: {fileID: 1622413685}
+  East_Burn_Hum_Mirror: {fileID: 1535686317}
   DownstairsPassage: {fileID: 120013841}
 --- !u!1 &657903680
 GameObject:
@@ -56477,9 +56503,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: 
-    sentences:
-    - A window looks onto a moonlit courtyard.
-    - There seems to be a a dark figure moving near the center...
+    sentences: []
     readings: []
 --- !u!114 &683839176
 MonoBehaviour:
@@ -56492,9 +56516,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826591abb524902418935ad8a64baefc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasDialogue: 1
+  hasDialogue: 0
   disabledAfterInteract: 0
-  hasInteractTooltip: 0
+  hasInteractTooltip: 1
 --- !u!61 &683839177
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -58780,8 +58804,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30be13e9ae3681840aeac3365a9a6cb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Coin
-  id: coin
+  name: 
+  id: 
 --- !u!61 &763074136
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -58820,8 +58844,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: 
-    sentences:
-    - A small silver coin.
+    sentences: []
     readings: []
 --- !u!114 &763074138
 MonoBehaviour:
@@ -58834,8 +58857,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4f31ed9a38df844da11953e97726821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasDialogue: 1
-  disabledAfterInteract: 1
+  hasDialogue: 0
+  disabledAfterInteract: 0
 --- !u!4 &764874506 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4495727648734572, guid: 5e5a428df2a98a244971311dc80bcb3d,
@@ -59551,14 +59574,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa8ba873b608adb488d9b874b57c3d93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shouldLockCamera: 1
-  shouldFade: 1
+  shouldLockCamera: 0
+  shouldFade: 0
   cameraPoint: {fileID: 2073147349}
-  triggerSounds:
-  - name: Thunder_1
-    duration: 0
-  - name: Discovery_1
-    duration: 0
+  triggerSounds: []
 --- !u!61 &824375416
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -59671,8 +59690,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c35438dafbb354babe1daeb09c07d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueText: {fileID: 933075391}
-  readingText: {fileID: 1104320224}
+  dialogueText: {fileID: 0}
+  readingText: {fileID: 0}
   dialogueBox: {fileID: 1803063365}
   readingBox: {fileID: 2124832234}
   canvasImage: {fileID: 1048202580}
@@ -59913,7 +59932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa8ba873b608adb488d9b874b57c3d93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shouldLockCamera: 0
+  shouldLockCamera: 1
   shouldFade: 1
   cameraPoint: {fileID: 1599702562}
   triggerSounds: []
@@ -60852,7 +60871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shouldLockCamera: 0
-  shouldFade: 1
+  shouldFade: 0
   cameraPoint: {fileID: 0}
   triggerSounds: []
 --- !u!61 &874782336
@@ -61352,8 +61371,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: 
-    sentences:
-    - The door seems to have been nailed shut.
+    sentences: []
     readings: []
 --- !u!1001 &902422430
 Prefab:
@@ -62416,8 +62434,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: 
-    sentences:
-    - You unlocked the door.
+    sentences: []
     readings: []
 --- !u!1001 &931331548
 Prefab:
@@ -64046,13 +64063,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bc27a87beef82c479dfc1a09517ae39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lockedSound: {fileID: 1718713381}
-  openSound: {fileID: 692747366}
+  lockedSound: {fileID: 0}
+  openSound: {fileID: 0}
   unlockSound: {fileID: 0}
-  closeSound: {fileID: 62864422}
+  closeSound: {fileID: 0}
   scarySound: {fileID: 0}
-  isLocked: 1
-  keyName: atrium_key
+  isLocked: 0
+  keyName: red_key
   isOpen: 0
 --- !u!95 &1014641447
 Animator:
@@ -64085,7 +64102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48658216533e9b8468b1ffdc4fa15e3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yOffset: 1.4
+  yOffset: 0
 --- !u!61 &1014641449
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -64219,9 +64236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: 
-    sentences:
-    - "The door is locked.\t\t"
-    - Cool air is flowing from beneath.
+    sentences: []
     readings: []
 --- !u!1001 &1015078818
 Prefab:
@@ -64849,7 +64864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da8eceab09eea694daeef095f61617b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasDialogue: 1
+  hasDialogue: 0
   disabledAfterInteract: 0
 --- !u!1001 &1035676197
 Prefab:
@@ -65147,7 +65162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   glows: 0
-  lanternId: w_d
+  lanternId: 
 --- !u!114 &1043466856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65729,7 +65744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   glows: 0
-  lanternId: w_d
+  lanternId: 
 --- !u!114 &1063064260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66132,7 +66147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826591abb524902418935ad8a64baefc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasDialogue: 1
+  hasDialogue: 0
   disabledAfterInteract: 0
   hasInteractTooltip: 1
 --- !u!114 &1070051273
@@ -66148,8 +66163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: 
-    sentences:
-    - The bookshelf is old and weathered, the books too withered to read.
+    sentences: []
     readings: []
 --- !u!4 &1070684305 stripped
 Transform:
@@ -66828,8 +66842,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dca5611168151e740bd03068ccb607ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  glows: 1
-  lanternId: w_b
+  glows: 0
+  lanternId: 
 --- !u!114 &1103455250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68454,7 +68468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb4be855c2ae61f458fcaa2d97bbefa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 1612850460}
+  destination: {fileID: 0}
 --- !u!1 &1173697581
 GameObject:
   m_ObjectHideFlags: 0
@@ -68484,9 +68498,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ed39ec42cd0fcd4c903842295530dee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resolver: {fileID: 1243051661}
-  sound1: {fileID: 1566501673}
-  sound2: {fileID: 1819034316}
+  resolver: {fileID: 0}
+  sound1: {fileID: 0}
+  sound2: {fileID: 0}
 --- !u!4 &1173697583
 Transform:
   m_ObjectHideFlags: 0
@@ -68542,8 +68556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: 
-    sentences:
-    - The silver coin begins to thrum...
+    sentences: []
     readings: []
 --- !u!1001 &1176610722
 Prefab:
@@ -69281,7 +69294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   glows: 0
-  lanternId: w_d
+  lanternId: 
 --- !u!114 &1206771049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69463,7 +69476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 11400000, guid: afca1799a002bde40a240f3b78b48645, type: 2}
+  profile: {fileID: 0}
 --- !u!114 &1214497989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69477,10 +69490,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   overwriteDefaultCameraBehavior: 0
   player: {fileID: 588154023}
-  previousTarget: {fileID: 0}
+  previousTarget: {fileID: 588154023}
   followTarget: {fileID: 588154023}
-  moveSpeed: 3
-  defaultZoom: 2.8
+  moveSpeed: 1
+  defaultZoom: 3
 --- !u!81 &1214497990
 AudioListener:
   m_ObjectHideFlags: 0
@@ -69556,7 +69569,7 @@ MonoBehaviour:
   _verticalJump: 0
   _horizontalShake: 0
   _colorDrift: 0
-  _shader: {fileID: 4800000, guid: da33272284ea24f208f36998880990be, type: 3}
+  _shader: {fileID: 0}
 --- !u!114 &1214497994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69568,8 +69581,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a3a070408aa941ab83ae10be1708848, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _intensity: 0.733
-  _shader: {fileID: 4800000, guid: ba40dc630e1d9417cb9ea22586ece1e1, type: 3}
+  _intensity: 0
+  _shader: {fileID: 0}
 --- !u!114 &1214497995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69582,10 +69595,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displacementMap: {fileID: 0}
-  Shader: {fileID: 4800000, guid: 755e0f80d814c504f92c057b3dc80d5b, type: 3}
-  intensity: 0.836
-  flipIntensity: 0.69
-  colorIntensity: 0.077
+  Shader: {fileID: 0}
+  intensity: 0
+  flipIntensity: 0
+  colorIntensity: 0
 --- !u!1 &1214953656
 GameObject:
   m_ObjectHideFlags: 0
@@ -70209,7 +70222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c0e81f0f0a7fc145bec5f73c454193c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoinfieldParent: {fileID: 1173697581}
+  CoinfieldParent: {fileID: 0}
 --- !u!114 &1243051665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70223,8 +70236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: 
-    sentences:
-    - The coin shattered...
+    sentences: []
     readings: []
 --- !u!1 &1244939783
 GameObject:
@@ -70384,8 +70396,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dca5611168151e740bd03068ccb607ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  glows: 1
-  lanternId: w_c
+  glows: 0
+  lanternId: 
 --- !u!114 &1245725559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71290,7 +71302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bf835e1bc273724d89e274648c988ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lightIntensity: 0.5
+  lightIntensity: 0.25
   tileId: b
 --- !u!61 &1281458599
 BoxCollider2D:
@@ -71965,7 +71977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bf835e1bc273724d89e274648c988ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lightIntensity: 0.5
+  lightIntensity: 0.25
   tileId: d
 --- !u!61 &1303130442
 BoxCollider2D:
@@ -73529,7 +73541,7 @@ MonoBehaviour:
   unlockSound: {fileID: 0}
   closeSound: {fileID: 0}
   scarySound: {fileID: 0}
-  isLocked: 1
+  isLocked: 0
   locked: 0
   isOpen: 0
 --- !u!61 &1351821649
@@ -74822,8 +74834,8 @@ MonoBehaviour:
   BurnInTileCenterMirror: {fileID: 1339886196}
   BurnInTileCenterLight: {fileID: 7176999}
   BurnInTileCenterMirrorLight: {fileID: 1484592696}
-  Center_Burn_Hum: {fileID: 98204176}
-  Center_Burn_Hum_Mirror: {fileID: 1862431380}
+  Center_Burn_Hum: {fileID: 299468997}
+  Center_Burn_Hum_Mirror: {fileID: 407554038}
 --- !u!1001 &1392496372
 Prefab:
   m_ObjectHideFlags: 0
@@ -75538,9 +75550,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826591abb524902418935ad8a64baefc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasDialogue: 1
+  hasDialogue: 0
   disabledAfterInteract: 0
-  hasInteractTooltip: 0
+  hasInteractTooltip: 1
 --- !u!114 &1418616687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75554,11 +75566,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: 
-    sentences:
-    - An ancient sarcophagus. There is an inscription along the side...
-    readings:
-    - "\"Regarding the Entombment/Internment of Saint Lucius IV, upon the..\"\r\n\r\nThe
-      rest of the text is to faded to make out.\r\n "
+    sentences: []
+    readings: []
 --- !u!1 &1421549911
 GameObject:
   m_ObjectHideFlags: 0
@@ -76304,6 +76313,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6140963}
+  - {fileID: 1535686318}
   m_Father: {fileID: 2137400799}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -76523,125 +76533,125 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: Player_Footstep
-    clip: {fileID: 8300000, guid: f23542500ae129249adf77ddf67fcd4f, type: 3}
-    loop: 0
-    volume: 0.091
-    pitch: 0.18
-    source: {fileID: 0}
-  - name: Passage_Open
-    clip: {fileID: 8300000, guid: b8c29a98ab9332b4d818d83644f2fde7, type: 3}
+  - name: Glitch_Static
+    clip: {fileID: 8300000, guid: c70f02290a95e434c944cc5aa45ed337, type: 3}
     loop: 1
-    volume: 0.841
-    pitch: 0.52
+    volume: 0.672
+    pitch: 1
     source: {fileID: 0}
-  - name: Flame_Ignite
-    clip: {fileID: 8300000, guid: 8446aeb196cffe349bc7354289a30291, type: 3}
+  - name: Shatter
+    clip: {fileID: 8300000, guid: 70e62a30263fbe74795b6b1c41a56d4d, type: 3}
     loop: 0
-    volume: 0.585
-    pitch: 0.67
-    source: {fileID: 0}
-  - name: Door_Locked
-    clip: {fileID: 8300000, guid: f7a85906c43ea704daa14f59e07e5afa, type: 3}
-    loop: 0
-    volume: 0.628
-    pitch: 0.39
-    source: {fileID: 0}
-  - name: Door_Banging
-    clip: {fileID: 8300000, guid: d4b24eca0537e9c41b3109eb926487fc, type: 3}
-    loop: 0
-    volume: 1
-    pitch: 0.46
+    volume: 0.556
+    pitch: 1
     source: {fileID: 0}
   - name: Bell_1
     clip: {fileID: 8300000, guid: dc67511be2e40ed479ef155ac4c32c38, type: 3}
     loop: 0
-    volume: 0.73
-    pitch: 0.33
-    source: {fileID: 0}
-  - name: West_Burn_Exit
-    clip: {fileID: 8300000, guid: 14cede8a278fffd4087bd61dccadb37a, type: 3}
-    loop: 0
     volume: 1
-    pitch: 0.95
+    pitch: 1
     source: {fileID: 0}
   - name: Tuning_Fork
     clip: {fileID: 8300000, guid: f44d07776f00e004a93be8395e90a34c, type: 3}
     loop: 0
-    volume: 0.73
-    pitch: 0.43
+    volume: 1
+    pitch: 1
     source: {fileID: 0}
-  - name: Glitch_Static
-    clip: {fileID: 8300000, guid: dced26bb7d24ec84c8a7461aee6e3935, type: 3}
+  - name: Passage_Open
+    clip: {fileID: 8300000, guid: b8c29a98ab9332b4d818d83644f2fde7, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 0.75
+    source: {fileID: 0}
+  - name: Creepy_Ambience
+    clip: {fileID: 8300000, guid: bf605b295f38cb9499f423ca689f7faf, type: 3}
     loop: 1
-    volume: 0.24
-    pitch: 0.41
+    volume: 1
+    pitch: 1
     source: {fileID: 0}
-  - name: Area_West
+  - name: Flame_Ignite
+    clip: {fileID: 8300000, guid: 8446aeb196cffe349bc7354289a30291, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Drafty_Ambience
     clip: {fileID: 8300000, guid: e83cdde4bffc9f64da99004d466c2d90, type: 3}
     loop: 1
-    volume: 0.526
-    pitch: 0.98
+    volume: 1
+    pitch: 1
     source: {fileID: 0}
-  - name: Area_East
-    clip: {fileID: 8300000, guid: e630031232dc36d4b93a56324ee99c67, type: 3}
+  - name: Wind_Ambience
+    clip: {fileID: 8300000, guid: 3b00d71a9c069d74085f55c8e201d3bc, type: 3}
     loop: 1
-    volume: 0.526
-    pitch: 0.98
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Opening_Music
+    clip: {fileID: 8300000, guid: 41fb73a6bc3bb2c42b4cf5204554bddd, type: 3}
+    loop: 1
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Dark_Empty
+    clip: {fileID: 8300000, guid: c464a3c24e2de134895948e29f571a88, type: 3}
+    loop: 1
+    volume: 1
+    pitch: 1
     source: {fileID: 0}
   - name: Slow_Scratch_Riser
     clip: {fileID: 8300000, guid: a235073191038b74b8b526cedf0022b7, type: 3}
     loop: 0
-    volume: 0.526
-    pitch: 0.98
-    source: {fileID: 0}
-  - name: Heavy_Metal_Creak
-    clip: {fileID: 8300000, guid: 368b42dc7c68f374e847440779cdc92a, type: 3}
-    loop: 1
-    volume: 0.526
-    pitch: 0.66
-    source: {fileID: 0}
-  - name: Thunder_1
-    clip: {fileID: 8300000, guid: f5ea94036d8947d46a40d033cc17d1fd, type: 3}
-    loop: 1
     volume: 1
-    pitch: 0.98
+    pitch: 1
     source: {fileID: 0}
-  - name: Creepy_Ambience
-    clip: {fileID: 8300000, guid: bf605b295f38cb9499f423ca689f7faf, type: 3}
-    loop: 1
-    volume: 0.526
-    pitch: 0.98
-    source: {fileID: 0}
-  - name: Discovery_1
-    clip: {fileID: 8300000, guid: dc67511be2e40ed479ef155ac4c32c38, type: 3}
+  - name: 
+    clip: {fileID: 0}
     loop: 0
-    volume: 0.418
-    pitch: 1.5
+    volume: 0
+    pitch: 0
     source: {fileID: 0}
-  - name: Creepy_Ambience
-    clip: {fileID: 8300000, guid: bf605b295f38cb9499f423ca689f7faf, type: 3}
-    loop: 1
-    volume: 0.526
-    pitch: 0.98
+  - name: 
+    clip: {fileID: 0}
+    loop: 0
+    volume: 0
+    pitch: 0
     source: {fileID: 0}
-  - name: Arid_Wasteland_Music_Quiet
-    clip: {fileID: 8300000, guid: 41fb73a6bc3bb2c42b4cf5204554bddd, type: 3}
-    loop: 1
-    volume: 0.063
-    pitch: 0.98
+  - name: 
+    clip: {fileID: 0}
+    loop: 0
+    volume: 0
+    pitch: 0
     source: {fileID: 0}
-  - name: Creepy_Ambience
-    clip: {fileID: 8300000, guid: bf605b295f38cb9499f423ca689f7faf, type: 3}
-    loop: 1
-    volume: 0.526
-    pitch: 0.98
+  - name: 
+    clip: {fileID: 0}
+    loop: 0
+    volume: 0
+    pitch: 0
     source: {fileID: 0}
-  - name: Creepy_Ambience
-    clip: {fileID: 8300000, guid: bf605b295f38cb9499f423ca689f7faf, type: 3}
-    loop: 1
-    volume: 0.526
-    pitch: 0.98
+  - name: 
+    clip: {fileID: 0}
+    loop: 0
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  - name: 
+    clip: {fileID: 0}
+    loop: 0
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  - name: 
+    clip: {fileID: 0}
+    loop: 0
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  - name: 
+    clip: {fileID: 0}
+    loop: 0
+    volume: 0
+    pitch: 0
     source: {fileID: 0}
 --- !u!4 &1446908398
 Transform:
@@ -76782,7 +76792,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb4be855c2ae61f458fcaa2d97bbefa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 1882783040}
+  destination: {fileID: 0}
 --- !u!61 &1454406799
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -77030,10 +77040,10 @@ MonoBehaviour:
   WestBurnInActive: 0
   EastBurnInActive: 0
   CentralBurnInActive: 0
-  bloodRoomVisited: 0
+  bloodRoomVisited: 1
   redKey: 0
-  Cutscene_BurnInWest: {fileID: 153311992}
-  Cutscene_BurnInEast: {fileID: 650648101}
+  Cutscene_BurnInWest: {fileID: 0}
+  Cutscene_BurnInEast: {fileID: 0}
 --- !u!4 &1458561720
 Transform:
   m_ObjectHideFlags: 0
@@ -77116,7 +77126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826591abb524902418935ad8a64baefc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasDialogue: 1
+  hasDialogue: 0
   disabledAfterInteract: 0
   hasInteractTooltip: 1
 --- !u!114 &1458853948
@@ -77132,8 +77142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: 
-    sentences:
-    - The bookshelf is old and weathered, the books too withered to read.
+    sentences: []
     readings: []
 --- !u!61 &1458853949
 BoxCollider2D:
@@ -77306,7 +77315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa8ba873b608adb488d9b874b57c3d93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shouldLockCamera: 0
+  shouldLockCamera: 1
   shouldFade: 1
   cameraPoint: {fileID: 118606754}
   triggerSounds: []
@@ -78417,8 +78426,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: 
-    sentences:
-    - The coin shattered...
+    sentences: []
     readings: []
 --- !u!114 &1501272104
 MonoBehaviour:
@@ -78431,7 +78439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c0e81f0f0a7fc145bec5f73c454193c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoinfieldParent: {fileID: 1902350230}
+  CoinfieldParent: {fileID: 0}
 --- !u!61 &1501272105
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -78973,7 +78981,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1517061669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78987,7 +78995,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAABIIexHNWSXOQIAAMkEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE2P4jAM/Sso50WiHQR0b7vAsHtgQMOu5tJLSF0akSZVPoaPEf99nbSlHVZzqms/2+/Zbj8Il6YCZpVeaZ6tVQbk+4B4m3wbEBpir9Ryhe4IPdyoEqzm7Ic8CI8dodNJnitdLrMDzJWxBt05FQYwpJX12RJdHwNyxscw8SkXtOKpt65oJaPBDU0G0oLuoC2whdUoJ5mgZQXZjl+hA49b9LiGSdTSIDxxpoTgpmFC7KUKQl/pxevMOEVVobXHFsAPhfUM+4mbPDdgGzqaXhZc43DqiuSnsoWvVFJzrDm9U+F8j1mUxIFQXXX9H2AYhXCuVfmrbRyNfBNbcHZEiowa25tp3734zNzJExVHuhfwVoB8USutnMwwaLXzqc5AvOhe79rmBbBj56+pPjhd9fVmvIZbkH+eC17umxC+7oQKow5bB41L+Y10w02YBoVez+GvgT/00D+eJvDMtbEYajRKT26vnPZQsgwT81qcnSstQfcrVCCpsJct1rGPK3yIfZ31TP330XRvYu35P6QEd4cfjR5CW3W678oU6rQGU2ycFVxCN2gfeMFBzZWU9YX1JbVpO6dzynppB8ezz5dFkkkSR9PpJJqyeDKejYdP2WwWsycGs1FEk5yScHpcok4qtjXRZjy4NtkVl3hm7Z9hsNK0CteeaXpa8WupTIfkMlc7pgHkpq5wJw4am+AXmS0zjgPagbVchoWTj5QIxY6QpfdCaVC6PFtN065KSir+rqz3pGQe/hcpuZHbP1BLAwQUAAAICAAASCHsL+j9LW0AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9QzNNNRUEovSizIKAaKGII4pZkpIHa0kqWZpZGhubmZoXmykZmJhYmucYqFhVGycXKqhYFhomVaolIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAASCHsRzVklzkCAADJBAAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAASCHsL+j9LW0AAAB4AAAACQAkAAAAAAAAAAAAAACGAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAD4DAAAAAA==
+    dataString: UEsDBBQAAAgIAABIIeyKKDbxNQAAAD4AAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz1DM001FQSi9KLMgoBooYgDilmSkgdnQskFNSWZDql5ibChGoBQBQSwECLQAUAAAICAAASCHsiig28TUAAAA+AAAACQAkAAAAAAAAAAAAAAAAAAAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAABAAEAWwAAAIAAAAAAAA==
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -79018,7 +79026,7 @@ MonoBehaviour:
   heuristic: 2
   heuristicScale: 1
   threadCount: 1
-  maxFrameTime: 10
+  maxFrameTime: 1
   minAreaSize: 0
   batchGraphUpdates: 0
   graphUpdateBatchingInterval: 0.2
@@ -79027,7 +79035,7 @@ MonoBehaviour:
     seed: 0
     pivotPointRoot: {fileID: 0}
     spreadOutCount: 1
-  showGraphs: 1
+  showGraphs: 0
 --- !u!4 &1517061670
 Transform:
   m_ObjectHideFlags: 0
@@ -79477,7 +79485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e089a4044e51b42bb4a9b20ab64c9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sound: Creepy_Ambience
+  sound: 
   duration: 0
 --- !u!61 &1528249802
 BoxCollider2D:
@@ -79746,6 +79754,130 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.362751, y: 0.25177002}
   m_EdgeRadius: 0
+--- !u!1 &1535686317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1535686318}
+  - component: {fileID: 1535686319}
+  m_Layer: 0
+  m_Name: Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1535686318
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1535686317}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.290001, y: 11.379997, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1443099861}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1535686319
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1535686317}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 3
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1538608514
 GameObject:
   m_ObjectHideFlags: 0
@@ -80501,7 +80633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb4be855c2ae61f458fcaa2d97bbefa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 1914753073}
+  destination: {fileID: 0}
 --- !u!61 &1564486155
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -81687,8 +81819,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
   patrols: []
-  updateRate: 2
-  speed: 300
+  updateRate: 0
+  speed: 0
   pathIsEnded: 0
   nextWaypointDistance: 3
 --- !u!1001 &1581225754
@@ -82876,7 +83008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb4be855c2ae61f458fcaa2d97bbefa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 1173560820}
+  destination: {fileID: 0}
 --- !u!1001 &1613272082
 Prefab:
   m_ObjectHideFlags: 0
@@ -84499,7 +84631,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shouldLockCamera: 1
-  shouldFade: 0
+  shouldFade: 1
   cameraPoint: {fileID: 755799645}
   triggerSounds: []
 --- !u!61 &1658563391
@@ -86629,7 +86761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bf835e1bc273724d89e274648c988ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lightIntensity: 0.5
+  lightIntensity: 0.25
   tileId: c
 --- !u!61 &1735739717
 BoxCollider2D:
@@ -87551,7 +87683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa8ba873b608adb488d9b874b57c3d93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shouldLockCamera: 0
+  shouldLockCamera: 1
   shouldFade: 1
   cameraPoint: {fileID: 516600414}
   triggerSounds: []
@@ -90722,8 +90854,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
   patrols: []
-  updateRate: 2
-  speed: 80
+  updateRate: 0
+  speed: 0
   pathIsEnded: 0
   nextWaypointDistance: 3
 --- !u!61 &1876080493
@@ -91105,7 +91237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb4be855c2ae61f458fcaa2d97bbefa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 1454406797}
+  destination: {fileID: 0}
 --- !u!61 &1882783039
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -91634,8 +91766,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: 
-    sentences:
-    - The silver coin begins to thrum...
+    sentences: []
     readings: []
 --- !u!61 &1902350233
 BoxCollider2D:
@@ -91673,9 +91804,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ed39ec42cd0fcd4c903842295530dee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resolver: {fileID: 1501272101}
-  sound1: {fileID: 1960614808}
-  sound2: {fileID: 1844850688}
+  resolver: {fileID: 0}
+  sound1: {fileID: 0}
+  sound2: {fileID: 0}
 --- !u!1 &1902608563
 GameObject:
   m_ObjectHideFlags: 0
@@ -91963,7 +92094,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bca30cc352e45e4c9ff5e47ad7a9e6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  atriumCenter: {fileID: 942714841}
+  atriumCenter: {fileID: 0}
 --- !u!61 &1907122498
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -92435,7 +92566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb4be855c2ae61f458fcaa2d97bbefa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 1564486153}
+  destination: {fileID: 0}
 --- !u!61 &1914753072
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -93728,7 +93859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 416156f7a85506c40b97b969fe0043a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  opacity: 0.5
+  opacity: 0
 --- !u!114 &1947508200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93901,9 +94032,7 @@ MonoBehaviour:
   shouldLockCamera: 1
   shouldFade: 1
   cameraPoint: {fileID: 1117474660}
-  triggerSounds:
-  - name: Discovery_1
-    duration: 0
+  triggerSounds: []
 --- !u!61 &1949388860
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -95210,8 +95339,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dca5611168151e740bd03068ccb607ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  glows: 1
-  lanternId: w_a
+  glows: 0
+  lanternId: 
 --- !u!61 &1974087785
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -95495,7 +95624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa8ba873b608adb488d9b874b57c3d93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shouldLockCamera: 0
+  shouldLockCamera: 1
   shouldFade: 1
   cameraPoint: {fileID: 1906972045}
   triggerSounds: []
@@ -97307,13 +97436,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bc27a87beef82c479dfc1a09517ae39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lockedSound: {fileID: 1422732294}
-  openSound: {fileID: 664651069}
+  lockedSound: {fileID: 0}
+  openSound: {fileID: 0}
   unlockSound: {fileID: 0}
-  closeSound: {fileID: 1611004309}
+  closeSound: {fileID: 0}
   scarySound: {fileID: 0}
-  isLocked: 1
-  keyName: atrium_key
+  isLocked: 0
+  keyName: red_key
   isOpen: 0
 --- !u!95 &2056665044
 Animator:
@@ -97346,7 +97475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48658216533e9b8468b1ffdc4fa15e3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yOffset: 1.4
+  yOffset: 0
 --- !u!61 &2056665046
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -97480,9 +97609,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: 
-    sentences:
-    - "The door is locked.\t\t"
-    - Cool air is flowing from beneath.
+    sentences: []
     readings: []
 --- !u!1001 &2057490285
 Prefab:
@@ -97707,9 +97834,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: 
-    sentences:
-    - The door is locked.
-    - A red sigil is inscribed on the wood.
+    sentences: []
     readings: []
 --- !u!114 &2074561027
 MonoBehaviour:
@@ -97722,14 +97847,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03654d5383e7c8b449125100a67555a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lockedSound: {fileID: 1538608516}
-  openSound: {fileID: 1126469794}
+  lockedSound: {fileID: 0}
+  openSound: {fileID: 0}
   unlockSound: {fileID: 0}
-  closeSound: {fileID: 848036400}
-  scarySound: {fileID: 102513143}
-  isLocked: 1
+  closeSound: {fileID: 0}
+  scarySound: {fileID: 0}
+  isLocked: 0
   locked: 0
-  isOpen: 1
+  isOpen: 0
 --- !u!114 &2074561028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97798,7 +97923,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48658216533e9b8468b1ffdc4fa15e3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yOffset: 1.4
+  yOffset: 0
 --- !u!61 &2074561032
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -97909,12 +98034,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 857de5690eb828f418dd87cd022c38cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lockedSound: {fileID: 1538608516}
-  openSound: {fileID: 1126469794}
+  lockedSound: {fileID: 0}
+  openSound: {fileID: 0}
   unlockSound: {fileID: 0}
-  closeSound: {fileID: 848036400}
-  scarySound: {fileID: 102513143}
-  isLocked: 1
+  closeSound: {fileID: 0}
+  scarySound: {fileID: 0}
+  isLocked: 0
   keyName: red_key
   isOpen: 0
 --- !u!1001 &2076878665
@@ -98168,7 +98293,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 526178748}
   m_Father: {fileID: 1803595121}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -98183,9 +98309,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a4bc8ff8faf3ec4cba35806d0d823f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FakePlayerAppear: {fileID: 810370845}
-  FakePlayerMove: {fileID: 26527999}
-  CameraTarget: {fileID: 810370844}
+  FakePlayerAppear: {fileID: 26527999}
+  FakePlayerMove: {fileID: 810370845}
+  CameraTarget: {fileID: 526178747}
   PlayerMove: {fileID: 2052214678}
 --- !u!4 &2094856602 stripped
 Transform:
@@ -98576,7 +98702,7 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - There is a lever hidden in a wall panel.
+    - A switch is hidden behind a loose wall tile.
     readings: []
 --- !u!114 &2108808202
 MonoBehaviour:
@@ -99074,7 +99200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449b10ab96bb5ec4794aa3eb701a50ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 1104320224}
+  text: {fileID: 0}
   color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &2124832237
 MonoBehaviour:

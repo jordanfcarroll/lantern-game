@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class East_Audio_Trigger : MonoBehaviour {
+public class East_Ambient_Audio_Trigger : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.name == "Player")
         {
-            FindObjectOfType<AudioManager>().Play("Area_East");
+            FindObjectOfType<AudioManager>().Play("Drafty_Ambience");
         }
     }
 
@@ -16,7 +16,7 @@ public class East_Audio_Trigger : MonoBehaviour {
     {
         if (col.gameObject.name == "Player")
         {
-            FindObjectOfType<AudioManager>().FadeOut("Area_East");
+            FindObjectOfType<AudioManager>().FadeOut("Drafty_Ambience");
         }
     }
 }

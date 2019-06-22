@@ -36,7 +36,7 @@ public class Opening : MonoBehaviour {
         yield return new WaitForSeconds(1f);
         FindObjectOfType<ReadBoxControl>().Activate(readings);
         yield return new WaitForSeconds(18f);
-        FindObjectOfType<AudioManager>().FadeOut("Opening_Music");
+        // FindObjectOfType<AudioManager>().FadeOut("Opening_Music");
         SceneManager.LoadScene(newScene);
 	}
 }
