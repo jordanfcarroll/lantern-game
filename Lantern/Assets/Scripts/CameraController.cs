@@ -47,8 +47,6 @@ public class CameraController : MonoBehaviour {
     	    FindObjectOfType<AnalogGlitch>().scanLineJitter = bgGlitchIntensity;	
 		}
 
-		
-
 		Camera.main.fieldOfView = 20f;
 
 		if (isShaking) { 

@@ -11,7 +11,6 @@ public class Opening : MonoBehaviour {
     [SerializeField]
     private string newScene;
 
-	// Use this for initialization
 	void Awake () {
 		// FindObjectOfType<AudioManager>().Play("Opening_Music");
 		FindObjectOfType<AudioManager>().Play("Wind_Ambience");
@@ -25,11 +24,6 @@ public class Opening : MonoBehaviour {
         }
     }
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
 	IEnumerator WaitToLoadNextScene () {
 
         FindObjectOfType<BackgroundUIFader>().startFade();

@@ -9,7 +9,6 @@ public class BusterTileControl : MonoBehaviour {
 
     public string tileId;
 
-	// Use this for initialization
 	void Start () {
 		animator = GetComponent<Animator>();
 	}
@@ -18,7 +17,6 @@ public class BusterTileControl : MonoBehaviour {
         GetComponentInChildren<Light>().intensity = 0f;
 	}
 	
-	// Update is called once per frame
 	void Update () {
 		if (!FindObjectOfType<GameManager_1>().busterTiles[tileId]) {
 			Deactive();
@@ -32,8 +30,6 @@ public class BusterTileControl : MonoBehaviour {
         if (col.gameObject.name == "Player" && !FindObjectOfType<GameManager_1>().busterTiles[tileId])
         {
 		   FindObjectOfType<GameManager_1>().activateBuster(tileId);
-		//    GetComponentInChildren<Light>().intensity = lightIntensity;
-		//    animator.Play("Active");
         }
     }
 

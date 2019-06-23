@@ -18,13 +18,11 @@ public class BookInteract : MonoBehaviour {
         animator = GetComponent<Animator>();
     }
 
-
 	void OnTriggerStay2D(Collider2D col) {
 		if (col.gameObject.name == "Player" && !disabled && !locked ) {
             FindObjectOfType<PlayerControl>().setInteractTooltip();
 			if (Input.GetButtonDown("Fire1")) {
                 FindObjectOfType<PlayerControl>().unsetInteractTooltip();
-
                 locked = true;
 
 				if (hasDialogue) {
@@ -34,10 +32,7 @@ public class BookInteract : MonoBehaviour {
 						disabled = true;
 					}
 				}
-
                 animator.Play("Open");
-
-
 			}
 		}
 	}

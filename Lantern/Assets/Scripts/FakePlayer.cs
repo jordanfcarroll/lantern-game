@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// This class could be generalized for NPCs
 public class FakePlayer : MonoBehaviour {
 
 
@@ -11,11 +12,6 @@ public class FakePlayer : MonoBehaviour {
 		animator = GetComponent<Animator>();
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
 	public void winkOut() {
         GetComponent<SpriteRenderer>().enabled = false;
 	}
@@ -77,9 +73,5 @@ public class FakePlayer : MonoBehaviour {
 
 	public void faceLeft() {
 		animator.SetFloat("FaceX", -1);
-	}
-
-	public void PlayFootstep () { 
-
 	}
 }

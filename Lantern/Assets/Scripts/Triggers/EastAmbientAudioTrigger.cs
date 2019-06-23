@@ -1,14 +1,14 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class West_Ambient_Audio_Trigger : MonoBehaviour {
+public class EastAmbientAudioTrigger : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.name == "Player")
         {
-            FindObjectOfType<AudioManager>().Play("Dark_Empty");
+            FindObjectOfType<AudioManager>().Play("Drafty_Ambience");
         }
     }
 
@@ -16,7 +16,7 @@ public class West_Ambient_Audio_Trigger : MonoBehaviour {
     {
         if (col.gameObject.name == "Player")
         {
-            FindObjectOfType<AudioManager>().FadeOut("Dark_Empty");
+            FindObjectOfType<AudioManager>().FadeOut("Drafty_Ambience");
         }
     }
 }

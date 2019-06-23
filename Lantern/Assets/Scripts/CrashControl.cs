@@ -8,12 +8,6 @@ public class CrashControl : MonoBehaviour {
     private Vector3 targetPos;
     private bool active = false;
 
-
-    // Use this for initialization
-    void Start () {
-	}
-	
-	// Update is called once per frame
 	void Update () {
         if (Input.GetButtonDown("Fire2"))
         {
@@ -24,7 +18,6 @@ public class CrashControl : MonoBehaviour {
             targetPos = new Vector3(transform.position.x, transform.position.y, -1);
             transform.position = Vector3.Lerp(transform.position, targetPos, moveSpeed * Time.deltaTime);
         }
-   
     }
 }
     

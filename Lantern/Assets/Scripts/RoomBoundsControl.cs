@@ -2,14 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Bounds for rooms -- allows for camera locking and fading in/out
 public class RoomBoundsControl : MonoBehaviour {
 
     public bool shouldLockCamera;
     public bool shouldFade;
     public GameObject cameraPoint;
 
+    // Localized room sounds
     public TriggerSound[] triggerSounds;
-
 
     void Start()
     {
@@ -56,10 +57,10 @@ public class RoomBoundsControl : MonoBehaviour {
             }
 
             if (shouldLockCamera && FindObjectOfType<CameraController>().followTarget.GetInstanceID() == cameraPoint.GetInstanceID()) {
-                
                 FindObjectOfType<CameraController>().followPlayer();
             }
 
+            // Turn off local sounds on room exit
             foreach (TriggerSound sound in triggerSounds)
             {
                 StopSound(sound.name);

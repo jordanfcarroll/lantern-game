@@ -383,10 +383,10 @@ public class PlayerControl : MonoBehaviour {
         return distance;
     }
 
+    // Receiver for animation event
     public void PlayFootstep () {
-        // FindObjectOfType<AudioManager>().Play("Player_Footstep");
+        FindObjectOfType<AudioManager>().Play("Player_Footstep");
     }
-
 
     public void setInteract() {
         state = "INTERACTING";

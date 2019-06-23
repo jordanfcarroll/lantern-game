@@ -2,21 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Generic Door class, doors with special needs can inherit
 [RequireComponent(typeof(BoxCollider2D))]
 public class Door : MonoBehaviour
 {
-
+    // Individual doors can have different sounds
     public AudioSource lockedSound;
     public AudioSource openSound;
     public AudioSource unlockSound;
     public AudioSource closeSound;
     public AudioSource scarySound;
 
+    public string keyName = "red_key";
+
     // door lock
     public bool isLocked;
     // interact lock
     private bool locked = false;
-    public string keyName = "red_key";
+
     public bool isOpen;
     private Animator animator;
     BoxCollider2D closedCollider;
@@ -34,7 +37,6 @@ public class Door : MonoBehaviour
     {
 
         BoxCollider2D[] BoxCollider2Ds = gameObject.GetComponentsInChildren<BoxCollider2D>();
-
         foreach (BoxCollider2D BoxCollider2D in BoxCollider2Ds)
         {
             if (BoxCollider2D.gameObject.transform.parent != null)
@@ -83,7 +85,6 @@ public class Door : MonoBehaviour
         {
             // NOTE locked != doorLocked, it's a lock on re-interact
 
-            
             if (Input.GetButtonDown("Fire1") && !locked)
             {
                 FindObjectOfType<PlayerControl>().unsetInteractTooltip();
@@ -98,8 +99,6 @@ public class Door : MonoBehaviour
                         FindObjectOfType<PlayerControl>().TriggerInteract(interactAction);
                         lockedSound.Play();
                         // GetComponent<DialogueTrigger>().triggerDialogue();
-
-
                     }
                     // IT'S LOCKED AND OH SHIT WE GOT THE KEY
                     else if (isLocked && FindObjectOfType<GameManager_1>().keyInventory[keyName])
@@ -110,6 +109,7 @@ public class Door : MonoBehaviour
                         isOpen = true;
                         isLocked = false;
                     }
+                    // OR JUST OPEN IT
                     else
                     {
                         openSound.Play();
@@ -157,15 +157,7 @@ public class Door : MonoBehaviour
 
     public virtual void endAction()
     {
-        
-
-		// children can override this
-
-        // if (shouldPlayScarySound)
-        // {
-        //     StartCoroutine(DelayScarySound());
-        //     shouldPlayScarySound = false;
-        // }
+		// children can override this for custom behavior
     }
 
     void interactAction()

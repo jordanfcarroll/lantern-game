@@ -5,13 +5,7 @@ using UnityEngine;
 public class FinalOpenTrigger : MonoBehaviour {
 
 	private bool triggered = false;
-
-
     public GameObject Cutscene_OpenFinal;
-	// Use this for initialization
-	void Start () {
-		
-	}
 
     void OnTriggerEnter2D(Collider2D col)
     {

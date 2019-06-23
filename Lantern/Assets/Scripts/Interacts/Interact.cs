@@ -9,9 +9,7 @@ public class Interact : MonoBehaviour {
 	public bool hasInteractTooltip = true;
 
 	private bool disabled = false;
-
 	private bool locked = false;
-
 
 	private DialogueTrigger dialogueTrigger;
 
@@ -32,8 +30,6 @@ public class Interact : MonoBehaviour {
 						disabled = true;
 					}
 				}
-
-
 			}
 		}
 	}
@@ -57,6 +53,4 @@ public class Interact : MonoBehaviour {
         // children can override this for additional behavior
 
     }
-
-	
 }

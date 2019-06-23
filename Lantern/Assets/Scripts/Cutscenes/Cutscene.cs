@@ -4,8 +4,6 @@ using UnityEngine;
 
 
 public class Cutscene : MonoBehaviour {
-
-
     public void RunCutscene()
         {
             StartCoroutine(ExecuteCutscene());
@@ -15,7 +13,4 @@ public class Cutscene : MonoBehaviour {
         public virtual IEnumerator ExecuteCutscene () {
             yield return null;
         }
-
-
-    
 }

@@ -4,10 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
-
-
 public class AudioManager : MonoBehaviour {
-
 
     public static AudioManager Instance { get; private set; }
 
@@ -15,7 +12,6 @@ public class AudioManager : MonoBehaviour {
 
 	void Awake () 
 	{
-
 		if (Instance == null)
 		{
 			Instance = this;
@@ -42,6 +38,7 @@ public class AudioManager : MonoBehaviour {
 	}
 
 	public void PlayDelayStop (string name, float delay) {
+		// Play sound for fixed amount of time
 		Sound s = Array.Find(sounds, sound => sound.name == name);
 		s.source.Play();
 

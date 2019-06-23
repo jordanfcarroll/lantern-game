@@ -5,7 +5,6 @@ using UnityEngine.Audio;
 public class TriggerSound {
 
 	public string name;
-
     public float duration;
 
 }

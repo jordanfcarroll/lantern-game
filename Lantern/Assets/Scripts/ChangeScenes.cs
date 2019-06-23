@@ -8,7 +8,6 @@ public class ChangeScenes : MonoBehaviour {
 	[SerializeField]
 	private string newScene;	
 
-
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.name == "Player")

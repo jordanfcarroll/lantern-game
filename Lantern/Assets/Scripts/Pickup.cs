@@ -8,7 +8,6 @@ public class Pickup : MonoBehaviour {
 	public string id;
 
 	private bool collected = false;
-
 	private bool revealed = false;
 
 	private int revealTimer = 0;
@@ -20,9 +19,7 @@ public class Pickup : MonoBehaviour {
 		animator = GetComponent<Animator>();
 	}
  
-	
-	// Update is called once per frame
-	void Update () {
+		void Update () {
 
 		// if distance to player is very low, shine regardless?
 
