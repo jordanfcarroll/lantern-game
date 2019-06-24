@@ -53234,7 +53234,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 588154023}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -22.27, y: 5.42, z: 0}
+  m_LocalPosition: {x: -16.82, y: -0.18, z: 0}
   m_LocalScale: {x: 1.0766, y: 1, z: 1}
   m_Children:
   - {fileID: 1795256236}
@@ -59470,8 +59470,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c35438dafbb354babe1daeb09c07d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueText: {fileID: 0}
-  readingText: {fileID: 0}
+  dialogueText: {fileID: 933075391}
+  readingText: {fileID: 1104320224}
   dialogueBox: {fileID: 1803063365}
   readingBox: {fileID: 2124832234}
   canvasImage: {fileID: 1048202580}
