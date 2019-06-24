@@ -2,27 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cutscene_Open_Final : MonoBehaviour {
+public class Cutscene_Open_Final : Cutscene {
 
     public GameObject spotlight;
     public Transform finalOpenPlayerPoint;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-    public void RunCutscene()
-    {
-        StartCoroutine(ExecuteCutscene());
-    }    
-
-    IEnumerator ExecuteCutscene()
+    public override IEnumerator ExecuteCutscene()
     {
         FindObjectOfType<CameraController>().zoomTo(2.8f, 2f);
 

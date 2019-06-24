@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Cutscene_End_1 : MonoBehaviour {
+public class Cutscene_End_1 : Cutscene {
 
     private bool triggered = false;
     public Transform FakePlayerAppear;

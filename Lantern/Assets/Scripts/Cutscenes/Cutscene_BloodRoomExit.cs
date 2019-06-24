@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cutscene_BloodRoomExit : MonoBehaviour {
+public class Cutscene_BloodRoomExit : Cutscene {
 
     private bool triggered = false;
 
@@ -23,13 +23,8 @@ public class Cutscene_BloodRoomExit : MonoBehaviour {
         // Panel = GameObject.FindGameObjectWithTag("WestSlidingPanel");
         // PanelAnimator = Panel.GetComponent<Animator>();
     }
-
-    public void RunCutscene()
-    {
-        StartCoroutine(ExecuteCutscene());
-    }
-
-    IEnumerator ExecuteCutscene()
+    
+    public override IEnumerator ExecuteCutscene()
     {
         // Flip triggered flag
         triggered = true;

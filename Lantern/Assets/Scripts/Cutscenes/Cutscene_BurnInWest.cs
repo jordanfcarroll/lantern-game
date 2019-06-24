@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Cutscene_BurnInWest : MonoBehaviour
-{
+public class Cutscene_BurnInWest : Cutscene {
 
     private bool triggered = false;
     private GameObject parhellion;
@@ -17,15 +16,6 @@ public class Cutscene_BurnInWest : MonoBehaviour
 
     private Animator BurnInAnimator;
     private Animator BurnInMirrorAnimator;
-   
-
-    // void OnTriggerEnter2D(Collider2D col)
-    // {
-    //     if (col.gameObject.name == "Player" && !triggered)
-    //     {
-    //         StartCoroutine(RunCutscene());
-    //     }
-    // }
 
     void Awake()
     {
@@ -41,11 +31,7 @@ public class Cutscene_BurnInWest : MonoBehaviour
 
     }
 
-    public void RunCutscene () {
-        StartCoroutine(ExecuteCutscene());
-    }
-
-    IEnumerator ExecuteCutscene()
+    public override IEnumerator ExecuteCutscene()
     {
         BurnTileWest = GameObject.FindGameObjectWithTag("BurnInTileWest");
         BurnInAnimator = BurnTileWest.GetComponent<Animator>();

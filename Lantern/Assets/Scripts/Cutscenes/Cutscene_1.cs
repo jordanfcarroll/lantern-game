@@ -3,17 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Cutscene_1 : MonoBehaviour {
+public class Cutscene_1 : Cutscene {
 
 	private bool triggered = false;
 	private GameObject parhellion;
 	private GameObject fixedFlame;
-
-	void OnTriggerEnter2D(Collider2D col) {
-    	if (col.gameObject.name == "Player" && !triggered) {
-			StartCoroutine(RunCutscene());
-		}
-    }
 
 	void Awake () {
 		// Find all the objects we need references to
@@ -21,7 +15,7 @@ public class Cutscene_1 : MonoBehaviour {
         fixedFlame = GameObject.FindGameObjectWithTag("Fixed_Flame");
 	}
 
-	IEnumerator RunCutscene () {
+	public override IEnumerator RunCutscene () {
 		// Flip triggered flag
 		triggered = true;
 

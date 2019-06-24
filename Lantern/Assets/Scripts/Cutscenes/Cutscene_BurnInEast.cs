@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Cutscene_BurnInEast : MonoBehaviour
-{
+public class Cutscene_BurnInEast : Cutscene {
 
     private bool triggered = false;
     public GameObject BurnInTileEast;
@@ -37,12 +36,7 @@ public class Cutscene_BurnInEast : MonoBehaviour
 
     }
 
-    public void RunCutscene()
-    {
-        StartCoroutine(ExecuteCutscene());
-    }
-
-    IEnumerator ExecuteCutscene()
+    public override IEnumerator ExecuteCutscene()
     {
         // Flip triggered flag
         triggered = true;

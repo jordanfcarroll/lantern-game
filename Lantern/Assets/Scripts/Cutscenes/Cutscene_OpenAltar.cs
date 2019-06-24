@@ -3,13 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Cutscene_OpenAltar : MonoBehaviour
-{
-
+public class Cutscene_OpenAltar : Cutscene {
     private bool triggered = false;
     private GameObject altarHeadpiece;
   
-
     private Animator altarAnimator;
 
 
@@ -18,17 +15,14 @@ public class Cutscene_OpenAltar : MonoBehaviour
         // Find all the objects we need references to
         altarHeadpiece = GameObject.Find("Altar_Headpiece");
         altarAnimator = altarHeadpiece.GetComponent<Animator>();
-
-
-
     }
 
-    public void RunCutscene()
-    {
-        StartCoroutine(ExecuteCutscene());
-    }
+    // public void RunCutscene()
+    // {
+    //     StartCoroutine(ExecuteCutscene());
+    // }
 
-    IEnumerator ExecuteCutscene()
+    public override IEnumerator ExecuteCutscene()
     {
         // Flip triggered flag
         triggered = true;

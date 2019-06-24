@@ -41435,12 +41435,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826591abb524902418935ad8a64baefc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasDialogue: 0
-  disabledAfterInteract: 0
-  hasInteractTooltip: 1
-  disabled: 0
-  locked: 0
-  dialogueTrigger: {fileID: 0}
 --- !u!61 &222254487
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46069,12 +46063,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826591abb524902418935ad8a64baefc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasDialogue: 0
-  disabledAfterInteract: 0
-  hasInteractTooltip: 1
-  disabled: 0
-  locked: 0
-  dialogueTrigger: {fileID: 0}
 --- !u!61 &346574629
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48570,7 +48558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   glows: 0
-  lanternId: 
+  lanternId: w_d
 --- !u!114 &427120897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53188,9 +53176,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 0.8
-  runSpeed: 0
+  runSpeed: 2
   focusSpeed: 0
-  dimSpeed: 0
+  dimSpeed: 0.2
   canMove: 1
   closestEnemyDistance: 1000
 --- !u!212 &588154030
@@ -53246,7 +53234,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 588154023}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -21.1, y: -0.8, z: 0}
+  m_LocalPosition: {x: -22.27, y: 5.42, z: 0}
   m_LocalScale: {x: 1.0766, y: 1, z: 1}
   m_Children:
   - {fileID: 1795256236}
@@ -56311,12 +56299,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826591abb524902418935ad8a64baefc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasDialogue: 0
-  disabledAfterInteract: 0
-  hasInteractTooltip: 1
-  disabled: 0
-  locked: 0
-  dialogueTrigger: {fileID: 0}
 --- !u!61 &683839177
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -63307,6 +63289,8 @@ Transform:
   m_Children:
   - {fileID: 1774814413}
   - {fileID: 2052214678}
+  - {fileID: 1847802505}
+  - {fileID: 1862008988}
   m_Father: {fileID: 0}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -65931,12 +65915,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826591abb524902418935ad8a64baefc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasDialogue: 0
-  disabledAfterInteract: 0
-  hasInteractTooltip: 1
-  disabled: 0
-  locked: 0
-  dialogueTrigger: {fileID: 0}
 --- !u!114 &1070051273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66630,7 +66608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   glows: 0
-  lanternId: 
+  lanternId: w_b
 --- !u!114 &1103455250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68255,7 +68233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb4be855c2ae61f458fcaa2d97bbefa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
+  destination: {fileID: 1612850460}
 --- !u!1 &1173697581
 GameObject:
   m_ObjectHideFlags: 0
@@ -70184,7 +70162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   glows: 0
-  lanternId: 
+  lanternId: w_c
 --- !u!114 &1245725559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75337,12 +75315,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826591abb524902418935ad8a64baefc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasDialogue: 0
-  disabledAfterInteract: 0
-  hasInteractTooltip: 1
-  disabled: 0
-  locked: 0
-  dialogueTrigger: {fileID: 0}
 --- !u!114 &1418616687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76832,8 +76804,8 @@ MonoBehaviour:
   CentralBurnInActive: 0
   bloodRoomVisited: 1
   redKey: 0
-  Cutscene_BurnInWest: {fileID: 0}
-  Cutscene_BurnInEast: {fileID: 0}
+  Cutscene_BurnInWest: {fileID: 153311992}
+  Cutscene_BurnInEast: {fileID: 650648101}
 --- !u!4 &1458561720
 Transform:
   m_ObjectHideFlags: 0
@@ -76916,12 +76888,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826591abb524902418935ad8a64baefc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasDialogue: 0
-  disabledAfterInteract: 0
-  hasInteractTooltip: 1
-  disabled: 0
-  locked: 0
-  dialogueTrigger: {fileID: 0}
 --- !u!114 &1458853948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80472,7 +80438,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1565812416
 Transform:
   m_ObjectHideFlags: 0
@@ -82784,7 +82750,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1612850458}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25.84, y: 0.134, z: 0}
+  m_LocalPosition: {x: -25.84, y: 0.389, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -82801,7 +82767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb4be855c2ae61f458fcaa2d97bbefa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
+  destination: {fileID: 1173560820}
 --- !u!1001 &1613272082
 Prefab:
   m_ObjectHideFlags: 0
@@ -88478,7 +88444,7 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1808674116}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -89695,6 +89661,34 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 842f05eb50560734f89727a247875a78, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1847802504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1847802505}
+  m_Layer: 0
+  m_Name: WestTeleportPointB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1847802505
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1847802504}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -34.04, y: 22.65, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 983522296}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1851599212
 GameObject:
   m_ObjectHideFlags: 0
@@ -90083,6 +90077,34 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9353008, y: 0.53990746}
   m_EdgeRadius: 0
+--- !u!1 &1862008987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1862008988}
+  m_Layer: 0
+  m_Name: WestTeleportPointA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1862008988
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1862008987}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -26.57, y: 0.52, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 983522296}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1862431380
 GameObject:
   m_ObjectHideFlags: 0
@@ -95133,7 +95155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   glows: 0
-  lanternId: 
+  lanternId: w_a
 --- !u!61 &1974087785
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -96726,7 +96748,7 @@ Prefab:
     - target: {fileID: 114739771368237646, guid: a874a635495dcf8489a02f0de46ade7f,
         type: 2}
       propertyPath: grade
-      value: 0.2
+      value: 0.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a874a635495dcf8489a02f0de46ade7f, type: 2}
@@ -97813,8 +97835,8 @@ MonoBehaviour:
   closeSound: {fileID: 848036400}
   scarySound: {fileID: 102513143}
   keyName: red_key
-  isLocked: 1
-  isOpen: 0
+  isLocked: 0
+  isOpen: 1
 --- !u!1001 &2076878665
 Prefab:
   m_ObjectHideFlags: 0

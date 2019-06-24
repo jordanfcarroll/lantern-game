@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Cutscene_OpenSecretWest : MonoBehaviour
-{
+public class Cutscene_OpenSecretWest : Cutscene {
 
     private bool triggered = false;
 
@@ -22,12 +21,7 @@ public class Cutscene_OpenSecretWest : MonoBehaviour
         PanelAnimator = Panel.GetComponent<Animator>();
     }
 
-    public void RunCutscene()
-    {
-        StartCoroutine(ExecuteCutscene());
-    }
-
-    IEnumerator ExecuteCutscene()
+    public override IEnumerator ExecuteCutscene()
     {
         // Flip triggered flag
         triggered = true;

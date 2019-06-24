@@ -20,15 +20,11 @@ public class LampControl : MonoBehaviour {
     // Don't allow stacked interacts
     private bool locked = false;
 
-
 	public string lanternId;
-    
 
     private float LampLightMaxIntensity = 1f;
 
     private Animator animator;
-    // private GameObject GameManager;
-
 
     // Use this for initialization
     void Start () {

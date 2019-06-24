@@ -41,19 +41,6 @@ public class GameManager_1 : MonoBehaviour {
 
 	public int coins = 0;
 
-	// public Hashtable westLamps = new Hashtable();
-    // Dictionary<string, bool> westLamps = new Dictionary<string, bool>();
-	// westLamps["w_a"] = false;/
-    // westLamps.Add("w_a", "false");
-	// westLamps.Add("w_b", false);
-	// westLamps.Add("w_c", false);
-	// westLamps.Add("w_d", false);
-
-	// public bool WestLanternALit = false;
-	// public bool WestLanternBLit = false;
-// /	public bool WestLanternCLit = false;
-	// public bool WestLanternDLit = false;
-
 	public bool WestBurnInActive = false;
 	public bool EastBurnInActive = false;
 	public bool CentralBurnInActive = false;
@@ -67,7 +54,7 @@ public class GameManager_1 : MonoBehaviour {
 
 	public bool redKey = false;
 	
-
+	// cutscenes triggered from gamemanager
 	public GameObject Cutscene_BurnInWest;
 	public GameObject Cutscene_BurnInEast;
 
@@ -81,8 +68,6 @@ public class GameManager_1 : MonoBehaviour {
 			Destroy(gameObject);
 		}
 	}
-
-
 
 	public void lightWestLantern (string id) {
 		westLamps[id] = true;
