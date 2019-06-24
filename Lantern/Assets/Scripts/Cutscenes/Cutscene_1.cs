@@ -15,7 +15,7 @@ public class Cutscene_1 : Cutscene {
         fixedFlame = GameObject.FindGameObjectWithTag("Fixed_Flame");
 	}
 
-	public override IEnumerator RunCutscene () {
+	public override IEnumerator ExecuteCutscene () {
 		// Flip triggered flag
 		triggered = true;
 
