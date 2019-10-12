@@ -10,6 +10,8 @@ public class BackgroundUIFader : MonoBehaviour {
 
 	private Color color;
 	public float opacity;
+	public float initialA;
+
 
 	// Use this for initialization
 	void Start () {
@@ -19,6 +21,8 @@ public class BackgroundUIFader : MonoBehaviour {
 	// Update is called once per frame
 	void Awake () {
 		color = GetComponent<Image>().color;
+		color.a = initialA;
+		GetComponent<Image>().color = color;
 	}
 
 	public void startFade () {
@@ -28,6 +32,10 @@ public class BackgroundUIFader : MonoBehaviour {
 	public void endFade (Action callback) {
         StartCoroutine(FadeOut(callback));
     }
+
+	public void endFadeCustom (float seconds) {
+		StartCoroutine(FadeOutSlow(seconds));
+	}
 
 	IEnumerator FadeIn() {
 		while(color.a < opacity) {
@@ -47,5 +55,19 @@ public class BackgroundUIFader : MonoBehaviour {
 		}
 
 		callback();
+	}
+
+	IEnumerator FadeOutSlow(float seconds) {
+		while(color.a > 0f) {
+
+			float interval = seconds / 100f;
+
+
+
+            color.a -= 0.01f;
+            GetComponent<Image>().color = color;
+			yield return new WaitForSeconds(interval);
+		}
+
 	}
 }

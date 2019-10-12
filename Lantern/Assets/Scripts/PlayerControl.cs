@@ -13,7 +13,9 @@ using UnityEngine;
 
 public class PlayerControl : MonoBehaviour {
 
-    private const float DefaultLightFullIntensity = 0.6f;
+    private bool lanternDisabled = true;
+
+    private const float DefaultLightFullIntensity = 4f;
     private const float DefaultLightDimIntensity = 0.1f;
     private const float LanternLightFullIntensity = 1.4f;
     private const float LanternLightDimIntensity = 0.3f;
@@ -81,6 +83,10 @@ public class PlayerControl : MonoBehaviour {
     }
 	
 	void Update () {
+
+       if (FindObjectOfType<GameManager_1>().hasLantern) {
+           // Set lantern sprites
+       } 
 
         if (interactTooltip) {
             FindObjectOfType<InteractTooltip>().Display();
@@ -176,7 +182,7 @@ public class PlayerControl : MonoBehaviour {
 
             // Using Lantern cone
             // Movement enabled? Only walk?
-            else if (Input.GetButton("Fire2")) {
+            else if (Input.GetButton("Fire2") && !lanternDisabled) {
                 maxForwardSpeed = focusSpeed;
 
                 // Set animator state
@@ -337,6 +343,12 @@ public class PlayerControl : MonoBehaviour {
         } else {
             animator.Play("Idle");
         }
+
+        if (lanternDisabled) {
+            GameObject.Find("Player_Spotlight").GetComponent<Light>().intensity = 0f;
+            GameObject.Find("Player_Spotlight").GetComponent<Light>().spotAngle = 0f;
+            GameObject.Find("Player_Lantern_Light").GetComponent<Light>().intensity = 0f;
+        }
     
         
 		
@@ -407,6 +419,10 @@ public class PlayerControl : MonoBehaviour {
 
     public Transform getTransform() {
         return transform;
+    }
+
+    public void enableLantern() {
+        this.lanternDisabled = false;
     }
 
     IEnumerator playInteract() {

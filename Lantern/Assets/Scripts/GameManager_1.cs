@@ -10,6 +10,7 @@ public class GameManager_1 : MonoBehaviour {
 
 	// World States
 	public bool talkedToParhellion = false;
+	public bool hasLantern = true;
 
 	// save reference here to where player should load into a scene with multiple loading zones
 
@@ -45,8 +46,11 @@ public class GameManager_1 : MonoBehaviour {
 	public bool EastBurnInActive = false;
 	public bool CentralBurnInActive = false;
 
+	// Open
+	public bool shouldTriggerDoorUnlock = false;
+
 	// West
-	public bool bloodRoomVisited = true;
+	public bool bloodRoomVisited = false;
 
 	// East
 
