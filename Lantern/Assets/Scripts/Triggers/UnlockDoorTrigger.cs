@@ -11,6 +11,7 @@ public class UnlockDoorTrigger : MonoBehaviour {
     {
         if (col.gameObject.name == "Player" && FindObjectOfType<GameManager_1>().shouldTriggerDoorUnlock && !triggered)
         {
+            triggered = true;
             cutscene.GetComponent<Cutscene_1_1_UnlockDoor>().RunCutscene();
         }
     }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
 
 // TODO
@@ -15,11 +16,17 @@ public class PlayerControl : MonoBehaviour {
 
     private bool lanternDisabled = true;
 
-    private const float DefaultLightFullIntensity = 4f;
-    private const float DefaultLightDimIntensity = 0.1f;
-    private const float LanternLightFullIntensity = 1.4f;
-    private const float LanternLightDimIntensity = 0.3f;
-    private const float FlickerLightMaxIntensity = 3f;
+    public const float DefaultLightFullIntensity = 1.8f;
+    public const float DefaultLightDimFullIntensity = 0.1f;
+    public const float LanternLightFullIntensity = 1.4f;
+    public const float LanternLightDimIntensity = 0.3f;
+    public const float FlickerLightMaxIntensity = 3f;
+
+    private float DefaultLightIntensity = 0f;
+    private float DefaultLightDimIntensity = DefaultLightDimFullIntensity;
+    // private const float LanternLightFullIntensity = 1.4f;
+    // private const float LanternLightDimIntensity = 0.3f;
+    // private const float FlickerLightMaxIntensity = 3f;
 
     private const float SpotlightFullIntensity = 13f;
     private const float SpotlightStartAngle = 140f;
@@ -29,10 +36,10 @@ public class PlayerControl : MonoBehaviour {
     private const float FixedSpotlightY = 90f;
     private const float FixedSpotlightZ = 0f;
 
+    private float focusSpeed = 0.6f;
     private Vector2 direction;
     public float walkSpeed;
     public float runSpeed;
-    public float focusSpeed;
     public float dimSpeed;
     public bool canMove = true;
 
@@ -46,6 +53,7 @@ public class PlayerControl : MonoBehaviour {
     private bool IsTilting;
     
 
+    private float lanternAngle;
     private float flashlightAngle;
     private float unsignedAngle;
 
@@ -127,8 +135,6 @@ public class PlayerControl : MonoBehaviour {
             yInputRight = Input.GetAxisRaw("Vertical2");
 
 
-
-
             IsMoving = !(xInput == 0 && yInput == 0);
             IsTilting = !(xInputRight == 0 && yInputRight ==0 );
 
@@ -145,7 +151,45 @@ public class PlayerControl : MonoBehaviour {
                 }
                 LastMoveX = xInput;
                 LastMoveY = yInput;
+            } 
+
+            // WHERE DO THE LANTERN GO WHEN WE'RE NOT MOVING
+            float lanternRelevantX = LastMoveX;
+            float lanternRelevantY = LastMoveY;
+
+            var lanternTiltVector = new Vector3(lanternRelevantX, lanternRelevantY, 0);
+
+            GameObject.Find("Player_Lantern_Light").transform.localPosition = new Vector3(0f, 0f, -0.2f) + lanternTiltVector.normalized * 0.21f;
+
+
+            // WHERE DO THE LANTERN GO WHEN WE'RE MOVING
+
+            Vector3 input = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+            float t = input.magnitude;
+
+            if (IsMoving) {
+                GameObject.Find("Player_Lantern_Light").transform.localPosition = new Vector3(0f, 0f, -0.2f) + lanternTiltVector.normalized * 0.21f + lanternTiltVector.normalized * t/5;
             }
+
+
+                
+        
+
+            
+            // if (LastMoveX < 0 && -0.5 < LastMoveY < 0.5) {
+            //     Debug.Log(GameObject.Find("Player_Lantern_Light").GetComponent<Transform>().localPosition);
+            //     var pos = GameObject.Find("Player_Lantern_Light").GetComponent<Transform>().localPosition;
+            //     pos.x = -.23f;
+            //     GameObject.Find("Player_Lantern_Light").GetComponent<Transform>().localPosition = pos;
+            // } else if (LastMoveX > 0) {
+            //    var pos = GameObject.Find("Player_Lantern_Light").GetComponent<Transform>().localPosition;
+            //     pos.x = .23f;
+            //     GameObject.Find("Player_Lantern_Light").GetComponent<Transform>().localPosition = pos;
+            // } else {
+            //    var pos = GameObject.Find("Player_Lantern_Light").GetComponent<Transform>().localPosition;
+            //     pos.x = 0f;
+            //     GameObject.Find("Player_Lantern_Light").GetComponent<Transform>().localPosition = pos;
+            // }
 
             // Include or exclude Player in culling mask
             LayerMask mask;
@@ -175,7 +219,7 @@ public class PlayerControl : MonoBehaviour {
 
                 GameObject.Find("Player_Spotlight").GetComponent<Light>().intensity = 0f;
                 GameObject.Find("Player_Spotlight").GetComponent<Light>().spotAngle = SpotlightStartAngle;
-                GameObject.Find("Player_Default_Light").GetComponent<Light>().intensity = DefaultLightDimIntensity;
+                GameObject.Find("Player_Default_Light").GetComponent<Light>().intensity = DefaultLightIntensity;
                 GameObject.Find("Player_Lantern_Light").GetComponent<Light>().intensity = LanternLightDimIntensity;
             }
 
@@ -199,7 +243,7 @@ public class PlayerControl : MonoBehaviour {
 
                 // Disable lantern
                 // StopCoroutine(LanternFlicker());
-                GameObject.Find("Player_Default_Light").GetComponent<Light>().intensity = DefaultLightFullIntensity;
+                GameObject.Find("Player_Default_Light").GetComponent<Light>().intensity = DefaultLightIntensity;
                 GameObject.Find("Player_Lantern_Light").GetComponent<Light>().intensity = 0;
 
                 // Increment on spotlight
@@ -259,7 +303,7 @@ public class PlayerControl : MonoBehaviour {
                 // disable spotlight, enable lantern light
                 GameObject.Find("Player_Spotlight").GetComponent<Light>().intensity = 0f;
                 GameObject.Find("Player_Spotlight").GetComponent<Light>().spotAngle = SpotlightStartAngle;
-                GameObject.Find("Player_Default_Light").GetComponent<Light>().intensity = DefaultLightFullIntensity;
+                GameObject.Find("Player_Default_Light").GetComponent<Light>().intensity = DefaultLightIntensity;
                 GameObject.Find("Player_Lantern_Light").GetComponent<Light>().intensity = LanternLightFullIntensity;
                 spotlightTriggerZone.GetComponent<BoxCollider2D>().enabled = false;
 
@@ -348,6 +392,9 @@ public class PlayerControl : MonoBehaviour {
             GameObject.Find("Player_Spotlight").GetComponent<Light>().intensity = 0f;
             GameObject.Find("Player_Spotlight").GetComponent<Light>().spotAngle = 0f;
             GameObject.Find("Player_Lantern_Light").GetComponent<Light>().intensity = 0f;
+        } else {
+            // GameObject.Find("Player_Spotlight").GetComponent<Light>().intensity = 0f;
+            // GameObject.Find("Player_Spotlight").GetComponent<Light>().intensity = 0f;
         }
     
         
@@ -358,7 +405,7 @@ public class PlayerControl : MonoBehaviour {
         canMove = false;
         GameObject.Find("Player_Spotlight").GetComponent<Light>().intensity = 0f;
         GameObject.Find("Player_Spotlight").GetComponent<Light>().spotAngle = SpotlightStartAngle;
-        GameObject.Find("Player_Default_Light").GetComponent<Light>().intensity = DefaultLightFullIntensity;
+        GameObject.Find("Player_Default_Light").GetComponent<Light>().intensity = DefaultLightIntensity;
         GameObject.Find("Player_Lantern_Light").GetComponent<Light>().intensity = LanternLightFullIntensity;
     }
     
@@ -423,6 +470,7 @@ public class PlayerControl : MonoBehaviour {
 
     public void enableLantern() {
         this.lanternDisabled = false;
+        disableDefaultLight();
     }
 
     IEnumerator playInteract() {
@@ -466,6 +514,22 @@ public class PlayerControl : MonoBehaviour {
 
         StartCoroutine(advanceToNextPoint(target.GetComponent<Transform>(), endDirection, speed));
     }
+
+    public void disableDefaultLight () {
+        this.DefaultLightIntensity = 0f;
+    }
+
+    public void restoreDefaultLight () {
+        StartCoroutine(updateDefaultLight());
+    }
+
+    IEnumerator updateDefaultLight () {
+        float changeSpeed = 0.005f;
+         while (this.DefaultLightIntensity < DefaultLightFullIntensity) {
+			this.DefaultLightIntensity += changeSpeed;
+            yield return null;
+		}
+	}
 
     IEnumerator advanceToNextPoint(Transform target, string endDirection, float speed)
     {

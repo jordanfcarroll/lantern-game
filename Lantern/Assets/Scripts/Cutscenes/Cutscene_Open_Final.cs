@@ -20,7 +20,7 @@ public class Cutscene_Open_Final : Cutscene {
         FindObjectOfType<CameraController>().panToTarget(spotlight);
 
 		yield return new WaitForSeconds(1f);
-        GameObject.Find("Final_Open_Spotlight").GetComponent<CutsceneSpotlight>().setNewIntensity(6f, 0.25f);
+        GameObject.Find("Final_Open_Spotlight").GetComponent<GenericLightControl>().setNewIntensity(6f, 0.25f);
 		yield return new WaitForSeconds(1f);
 
         FindObjectOfType<CameraController>().majorShake();
@@ -42,7 +42,7 @@ public class Cutscene_Open_Final : Cutscene {
         FindObjectOfType<AudioManager>().Play("Creepy_Ambience");
 
         // turn off light
-        GameObject.Find("Final_Open_Spotlight").GetComponent<CutsceneSpotlight>().setNewIntensity(0f, 0.5f);
+        GameObject.Find("Final_Open_Spotlight").GetComponent<GenericLightControl>().setNewIntensity(0f, 0.5f);
 
 
 	}

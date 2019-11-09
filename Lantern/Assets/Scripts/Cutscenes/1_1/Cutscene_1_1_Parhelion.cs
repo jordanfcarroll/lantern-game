@@ -21,13 +21,13 @@ public class Cutscene_1_1_Parhelion : Cutscene {
 
 		FindObjectOfType<CameraController>().panToTarget(parhellion);
         yield return new WaitForSeconds(1);
-        parhellionSpotlight.GetComponent<CutsceneSpotlight>().setNewIntensity(6f, 0.25f);
+        parhellionSpotlight.GetComponent<GenericLightControl>().setNewIntensity(12f, 0.25f);
         yield return new WaitForSeconds(3);
 
 
         FindObjectOfType<CameraController>().panToTarget(fixedFlame);
         yield return new WaitForSeconds(1);
-        fixedFlameSpotlight.GetComponent<CutsceneSpotlight>().setNewIntensity(6f, 0.25f);
+        fixedFlameSpotlight.GetComponent<GenericLightControl>().setNewIntensity(12f, 0.25f);
         yield return new WaitForSeconds(3);
 
 		// Unlock player

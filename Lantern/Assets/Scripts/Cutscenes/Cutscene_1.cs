@@ -27,7 +27,7 @@ public class Cutscene_1 : Cutscene {
 		// Lerp camera to flame, activate light and pause
 		FindObjectOfType<CameraController>().panToTarget(fixedFlame);
         yield return new WaitForSeconds(1);
-        GameObject.Find("Fixed_Flame_Spotlight").GetComponent<CutsceneSpotlight>().setNewIntensity(35f, 0.5f);
+        GameObject.Find("Fixed_Flame_Spotlight").GetComponent<GenericLightControl>().setNewIntensity(35f, 0.5f);
         FindObjectOfType<CameraController>().zoomTo(1f, 3f);
 
         // FindObjectOfType<AudioManager>().Play("flame_ignite");
@@ -39,7 +39,7 @@ public class Cutscene_1 : Cutscene {
 			
 		FindObjectOfType<CameraController>().panToTarget(parhellion);
         yield return new WaitForSeconds(1);
-        GameObject.Find("Parhellion_Spotlight").GetComponent<CutsceneSpotlight>().setNewIntensity(24f, 0.5f);
+        GameObject.Find("Parhellion_Spotlight").GetComponent<GenericLightControl>().setNewIntensity(24f, 0.5f);
 		
 		yield return new WaitForSeconds(3);
 		// Unfreeze player and relock camera

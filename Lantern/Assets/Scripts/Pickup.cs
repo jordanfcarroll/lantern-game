@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class Pickup : MonoBehaviour {
 
-	public string name;
-	public string id;
-
 	private bool collected = false;
 	private bool revealed = false;
 

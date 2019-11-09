@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LanternInteract : MonoBehaviour
+public class FixedFlameInteract : MonoBehaviour
 {
 	// private Action callback;
 
@@ -33,8 +33,6 @@ public class LanternInteract : MonoBehaviour
             {
                 if (hasDialogue)
                 {
-                    FindObjectOfType<GameManager_1>().shouldTriggerDoorUnlock = true;
-                    disableShine();
                     dialogueTrigger = GetComponent<DialogueTrigger>();
                     dialogueTrigger.triggerDialogue(endAction);
                     if (disabledAfterInteract)
@@ -51,15 +49,7 @@ public class LanternInteract : MonoBehaviour
 
 	void endAction () {
         // Cutscene_OpenAltar.GetComponent<Cutscene_OpenAltar>().RunCutscene();
-        FindObjectOfType<PlayerControl>().enableLantern();
-    }
-
-    public void enableShine () {
-        shine.GetComponent<Animator>().Play("shine_Shine");
-    }
-
-    public void disableShine () {
-        shine.GetComponent<Pickup>().Collect();
+        // FindObjectOfType<PlayerControl>().enableLantern();
     }
 
    

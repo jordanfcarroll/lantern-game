@@ -25,31 +25,38 @@ public class BackgroundUIFader : MonoBehaviour {
 		GetComponent<Image>().color = color;
 	}
 
-	public void startFade () {
-        StartCoroutine(FadeIn());
+	public void startFade (Action callback) {
+        StartCoroutine(FadeOut(callback));
+    }
+
+	public void startFadeInCustom (float seconds) {
+        StartCoroutine(FadeInSlow(seconds));
     }
 
 	public void endFade (Action callback) {
-        StartCoroutine(FadeOut(callback));
+        StartCoroutine(FadeIn(callback));
     }
 
 	public void endFadeCustom (float seconds) {
 		StartCoroutine(FadeOutSlow(seconds));
 	}
 
-	IEnumerator FadeIn() {
-		while(color.a < opacity) {
+	IEnumerator FadeIn(Action callback) {
+		while(color.a > 0f) {
 
-            color.a += 0.01f;
+            color.a -= 0.001f;
             GetComponent<Image>().color = color;
 			yield return null;
 		}
+
+		callback();
 	}
 	
 	IEnumerator FadeOut(Action callback) {
-		while(color.a > 0f) {
+		while(color.a < 0.2f) {
 
-            color.a -= 0.01f;
+			Debug.Log(color.a);
+            color.a += 0.005f;
             GetComponent<Image>().color = color;
 			yield return null;
 		}
@@ -58,6 +65,20 @@ public class BackgroundUIFader : MonoBehaviour {
 	}
 
 	IEnumerator FadeOutSlow(float seconds) {
+		while(color.a > 0f) {
+
+			float interval = seconds / 100f;
+
+
+
+            color.a -= 0.01f;
+            GetComponent<Image>().color = color;
+			yield return new WaitForSeconds(interval);
+		}
+
+	}
+
+	IEnumerator FadeInSlow(float seconds) {
 		while(color.a > 0f) {
 
 			float interval = seconds / 100f;

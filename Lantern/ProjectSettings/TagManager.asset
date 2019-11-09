@@ -75,3 +75,6 @@ TagManager:
   - name: Player
     uniqueID: 506418755
     locked: 0
+  - name: Tooltip
+    uniqueID: 512463737
+    locked: 0

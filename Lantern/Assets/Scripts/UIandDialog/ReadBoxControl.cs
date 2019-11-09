@@ -51,11 +51,13 @@ public class ReadBoxControl : MonoBehaviour {
         string reading = readings.Dequeue();
         text.text = reading;
 
+		Debug.Log(text.text);
 
 		color = text.GetComponent<Text>().color;
         while (color.a < 1f)
         {
             color.a += 0.02f;
+			Debug.Log(color.a);
             text.GetComponent<Text>().color = color;
             yield return null;
         }

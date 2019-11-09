@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CutsceneSpotlight : MonoBehaviour {
+public class GenericLightControl : MonoBehaviour {
 
-	public float intensity;
-	public float changeSpeed;
+	private float intensity;
+	private float changeSpeed;
 
 	void Update () {
         if (GetComponent<Light>().intensity < intensity) {

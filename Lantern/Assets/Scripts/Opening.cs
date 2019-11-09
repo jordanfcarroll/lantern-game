@@ -13,7 +13,7 @@ public class Opening : MonoBehaviour {
 
 	void Awake () {
 		FindObjectOfType<AudioManager>().Play("Opening_Music");
-		FindObjectOfType<AudioManager>().Play("Wind_Ambience");
+		// FindObjectOfType<AudioManager>().Play("Wind_Ambience");
 		StartCoroutine(WaitToLoadNextScene());
 
 
@@ -26,7 +26,7 @@ public class Opening : MonoBehaviour {
 	
 	IEnumerator WaitToLoadNextScene () {
 
-        FindObjectOfType<BackgroundUIFader>().startFade();
+        FindObjectOfType<BackgroundUIFader>().startFade(null);
         yield return new WaitForSeconds(4f);
         FindObjectOfType<ReadBoxControl>().Activate(readings);
         yield return new WaitForSeconds(6f);

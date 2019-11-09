@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Cutscene_1_1_UnlockDoor : Cutscene {
+public class Cutscene_1_1_SceneEnd : Cutscene {
 
 	private bool triggered = false;
 	public GameObject door;

@@ -51,7 +51,7 @@ public class DialogueManager : MonoBehaviour {
 
 
 		dialogueBox.SetActive(true);
-        // canvasImage.GetComponent<Image>().CrossFadeAlpha(0.9f, 3.0f, false);
+        canvasImage.GetComponent<Image>().CrossFadeAlpha(0.9f, 3.0f, false);
 
         // bad but w/e -- use a method?
         // schedulePlayerUpdate = true;
@@ -97,8 +97,8 @@ public class DialogueManager : MonoBehaviour {
 	}
 
 	IEnumerator startReading() {
-		FindObjectOfType<BackgroundUIFader>().startFade();
-		yield return new WaitForSeconds(1f);
+		FindObjectOfType<BackgroundUIFader>().startFade(null);
+		yield return new WaitForSeconds(2f);
         FindObjectOfType<ReadBoxControl>().Activate(readings);
 	}
 
