@@ -40,7 +40,7 @@ public class FakePlayer : MonoBehaviour {
 
 		while (Vector3.Distance(transform.position, target.position) > step) {
         	transform.position = Vector3.MoveTowards(transform.position, target.position, step);
-			yield return null;
+			yield return new WaitForSeconds(0f);;
 		}
 
 		animator.Play("Idle");

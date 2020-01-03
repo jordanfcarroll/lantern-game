@@ -17,18 +17,17 @@ public class Cutscene_1_1_Parhelion : Cutscene {
 
 		// Freeze player and set camera position
 		FindObjectOfType<PlayerControl>().lockPlayer();
-        yield return new WaitForSeconds(1);
-
-		FindObjectOfType<CameraController>().panToTarget(parhellion);
-        yield return new WaitForSeconds(1);
-        parhellionSpotlight.GetComponent<GenericLightControl>().setNewIntensity(12f, 0.25f);
-        yield return new WaitForSeconds(3);
-
+        yield return new WaitForSeconds(4);
 
         FindObjectOfType<CameraController>().panToTarget(fixedFlame);
         yield return new WaitForSeconds(1);
         fixedFlameSpotlight.GetComponent<GenericLightControl>().setNewIntensity(12f, 0.25f);
         yield return new WaitForSeconds(3);
+
+		// FindObjectOfType<CameraController>().panToTarget(parhellion);
+        // yield return new WaitForSeconds(1);
+        // parhellionSpotlight.GetComponent<GenericLightControl>().setNewIntensity(12f, 0.25f);
+        // yield return new WaitForSeconds(3);
 
 		// Unlock player
 		FindObjectOfType<CameraController>().followPlayer();

@@ -24,4 +24,5 @@ public class AudioTrigger : MonoBehaviour {
         yield return new WaitForSeconds(duration);
         FindObjectOfType<AudioManager>().Stop(sound);
     }
+
 }

@@ -23,7 +23,7 @@ public class AudioManager : MonoBehaviour {
 		}
 
 		foreach (Sound s in sounds) 
-		{
+		{	
 			s.source = gameObject.AddComponent<AudioSource>();
 			s.source.clip = s.clip;
 			s.source.pitch = s.pitch;
@@ -60,8 +60,11 @@ public class AudioManager : MonoBehaviour {
 	IEnumerator FadeVolume (string name) {
         Sound s = Array.Find(sounds, sound => sound.name == name);
 		while (s.source.volume > 0) {
+            if (PauseMenuGame.GameIsPaused) {
+                yield return new WaitForSeconds(0.1f);
+            }
 			s.source.volume -= 0.01f;
-            yield return null;
+            yield return new WaitForSeconds(0f);;
 		}
 		s.source.Stop();
 	}

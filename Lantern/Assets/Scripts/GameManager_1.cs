@@ -9,6 +9,7 @@ public class GameManager_1 : MonoBehaviour {
 	// values
 
 	// World States
+	public bool skipCutscenes = false;
 	public bool talkedToParhellion = false;
 	public bool hasLantern = true;
 

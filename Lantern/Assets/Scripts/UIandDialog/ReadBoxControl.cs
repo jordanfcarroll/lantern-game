@@ -51,17 +51,16 @@ public class ReadBoxControl : MonoBehaviour {
         string reading = readings.Dequeue();
         text.text = reading;
 
-		Debug.Log(text.text);
 
 		color = text.GetComponent<Text>().color;
         while (color.a < 1f)
         {
             color.a += 0.02f;
-			Debug.Log(color.a);
             text.GetComponent<Text>().color = color;
-            yield return null;
+            yield return new WaitForSeconds(0f);;
         }
-		isActive = true;
+		yield return new WaitForSeconds(3f); 
+		StartCoroutine(Advance());
 	}
 
 	IEnumerator Advance () {
@@ -69,7 +68,7 @@ public class ReadBoxControl : MonoBehaviour {
 		while (color.a > 0f) {
 			color.a -= 0.02f;
             text.GetComponent<Text>().color = color;
-			yield return null;
+			yield return new WaitForSeconds(0f);;
 		}
         DisplayNextReading();
 	}

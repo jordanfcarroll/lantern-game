@@ -36,6 +36,7 @@ public class Cutscene_End_1 : Cutscene {
 
 		yield return new WaitForSeconds(3f);
 		FindObjectOfType<CameraController>().Glitch(0.05f, 0.7f);
+        FindObjectOfType<CameraController>().Glitch(0.05f, 0.7f);
         FindObjectOfType<FakePlayer>().Appear(FakePlayerAppear);
 
 		yield return new WaitForSeconds(2f);

@@ -76,7 +76,7 @@ public class RoomBoundsControl : MonoBehaviour {
         {
             Color newColor = new Color(0, 0, 0, Mathf.Lerp(alpha, aValue, t));
             GetComponent<SpriteRenderer>().color = newColor;
-            yield return null;
+            yield return new WaitForSeconds(0f);;
         }
     }
 }

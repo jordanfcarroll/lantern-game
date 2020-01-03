@@ -44,7 +44,7 @@ public class CameraController : MonoBehaviour {
 
 		// override bg glitch with main glitch
 		if (!isGlitching) {
-    	    FindObjectOfType<AnalogGlitch>().scanLineJitter = bgGlitchIntensity;	
+    	    FindObjectOfType<Kino.AnalogGlitch>().scanLineJitter = bgGlitchIntensity;	
 		}
 
 		Camera.main.fieldOfView = 20f;
@@ -120,7 +120,7 @@ public class CameraController : MonoBehaviour {
 		for (float t = 0.0f; t <= 1.0f; t += Time.deltaTime / time) {
 			float newSize = Mathf.Lerp(initialSize, size, t);
             GetComponent<Camera>().orthographicSize = newSize;
-			yield return null;
+			yield return new WaitForSeconds(0f);;
 		}
 	}
 
@@ -132,12 +132,12 @@ public class CameraController : MonoBehaviour {
 		isGlitching = true;
         FindObjectOfType<AudioManager>().Play("Glitch_Static");
         // FindObjectOfType<AudioManager>().Play("Tuning_Fork");
-        FindObjectOfType<AnalogGlitch>().scanLineJitter = intensity;
+        FindObjectOfType<Kino.AnalogGlitch>().scanLineJitter = intensity;
 		yield return new WaitForSeconds(duration);
         FindObjectOfType<AudioManager>().Stop("Glitch_Static");
         // FindObjectOfType<AudioManager>().Stop("Tuning_Fork");
 		isGlitching = false;
-        FindObjectOfType<AnalogGlitch>().scanLineJitter = bgGlitchIntensity;
+        FindObjectOfType<Kino.AnalogGlitch>().scanLineJitter = bgGlitchIntensity;
     }
 
 	public void backgroundGlitch (float duration, float intensity) {
@@ -158,8 +158,8 @@ public class CameraController : MonoBehaviour {
 
     IEnumerator ColorGlitchCoroutine(float duration, float intensity)
     {
-        FindObjectOfType<AnalogGlitch>().colorDrift = intensity;
+        FindObjectOfType<Kino.AnalogGlitch>().colorDrift = intensity;
         yield return new WaitForSeconds(duration);
-        FindObjectOfType<AnalogGlitch>().colorDrift = 0f;
+        FindObjectOfType<Kino.AnalogGlitch>().colorDrift = 0f;
     }
 }

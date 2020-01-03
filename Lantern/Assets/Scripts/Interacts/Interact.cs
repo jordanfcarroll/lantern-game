@@ -7,6 +7,8 @@ public class Interact : MonoBehaviour {
 	public bool hasDialogue;
 	public bool disabledAfterInteract = false;
 	public bool hasInteractTooltip = true;
+	public bool shines = false;
+    public GameObject shine;
 
 	private bool disabled = false;
 	private bool locked = false;
@@ -23,12 +25,13 @@ public class Interact : MonoBehaviour {
                 FindObjectOfType<PlayerControl>().unsetInteractTooltip();
 
                 if (hasDialogue) {
+					if (shines) {
+						disableShine();
+					}
 					locked = true;
 					dialogueTrigger = GetComponent<DialogueTrigger>();
 					dialogueTrigger.triggerDialogue(unlockAndEnd);	
-					if (disabledAfterInteract) {
-						disabled = true;
-					}
+
 				}
 			}
 		}
@@ -40,7 +43,10 @@ public class Interact : MonoBehaviour {
 
     private void unlockAndEnd()
     {
-        if (hasInteractTooltip)
+		if (disabledAfterInteract) {
+			disabled = true;
+		}
+        if (hasInteractTooltip && !disabled)
         {
             FindObjectOfType<PlayerControl>().setInteractTooltip();
         }
@@ -53,4 +59,12 @@ public class Interact : MonoBehaviour {
         // children can override this for additional behavior
 
     }
+	public void enableShine () {
+        shine.GetComponent<Animator>().Play("shine_Shine");
+    }
+
+    public void disableShine () {
+        shine.GetComponent<Pickup>().Collect();
+    }
+
 }

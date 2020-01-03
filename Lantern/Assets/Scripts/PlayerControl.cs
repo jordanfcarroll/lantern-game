@@ -14,7 +14,7 @@ using UnityEngine;
 
 public class PlayerControl : MonoBehaviour {
 
-    private bool lanternDisabled = true;
+    private bool lanternDisabled = false;
 
     public const float DefaultLightFullIntensity = 1.8f;
     public const float DefaultLightDimFullIntensity = 0.1f;
@@ -527,7 +527,7 @@ public class PlayerControl : MonoBehaviour {
         float changeSpeed = 0.005f;
          while (this.DefaultLightIntensity < DefaultLightFullIntensity) {
 			this.DefaultLightIntensity += changeSpeed;
-            yield return null;
+            yield return new WaitForSeconds(0f);;
 		}
 	}
 
@@ -546,8 +546,11 @@ public class PlayerControl : MonoBehaviour {
 
         while (Vector3.Distance(transform.position, target.position) > step)
         {
+            if (PauseMenuGame.GameIsPaused) {
+                yield return new WaitForSeconds(0.1f);
+            }
             transform.position = Vector3.MoveTowards(transform.position, target.position, step);
-            yield return null;
+            yield return new WaitForSeconds(0f);
         }
 
         state = null;

@@ -46,7 +46,7 @@ public class DialogueManager : MonoBehaviour {
 		receiveInput = true;
     }
 	
-	public void StartDialogue (Dialogue dialogue, Action callback) {
+	public void StartDialogue (Dialogue dialogue, Action callback, bool shouldLockPlayer = true) {
         endDialogueCallback = callback;
 
 
@@ -55,7 +55,9 @@ public class DialogueManager : MonoBehaviour {
 
         // bad but w/e -- use a method?
         // schedulePlayerUpdate = true;
-        FindObjectOfType<PlayerControl>().canMove = false;
+		if (shouldLockPlayer) {
+        	FindObjectOfType<PlayerControl>().canMove = false;
+		}
 
 
         sentences.Clear();

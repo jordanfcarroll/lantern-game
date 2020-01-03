@@ -11,6 +11,6 @@ public class Cutscene : MonoBehaviour {
 
         // Can be overwritten by children
         public virtual IEnumerator ExecuteCutscene () {
-            yield return null;
+            yield return new WaitForSeconds(0f);;
         }
 }
