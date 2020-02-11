@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenuGame : MonoBehaviour {
 
@@ -12,6 +13,12 @@ public class PauseMenuGame : MonoBehaviour {
 				Resume();
 			} else {
 				Pause();
+			}
+		}
+
+		if (Input.GetButtonDown("Fire1")) {
+			if (GameIsPaused) {
+				SaveAndQuit();
 			}
 		}
 	}
@@ -26,5 +33,12 @@ public class PauseMenuGame : MonoBehaviour {
 		PauseMenuUi.SetActive(true);
 		Time.timeScale = 0f;
 		GameIsPaused = true;
+	}
+
+	void SaveAndQuit() {
+		GameEvents.OnSaveInitiated();
+		// Is this right?
+		Resume();
+		SceneManager.LoadScene(0);
 	}
 }

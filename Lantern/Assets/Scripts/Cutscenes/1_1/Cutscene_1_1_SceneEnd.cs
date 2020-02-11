@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 
 public class Cutscene_1_1_SceneEnd : Cutscene {
-
-	private bool triggered = false;
-
 	public override IEnumerator ExecuteCutscene () {
+		if (triggered) {
+			yield break;
+		}
 		// Flip triggered flag
 		triggered = true;
 

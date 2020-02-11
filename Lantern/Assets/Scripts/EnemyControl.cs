@@ -47,7 +47,6 @@ public class EnemyControl : MonoBehaviour {
 		target = patrols[0];
 
 		if (target == null) {
-			Debug.LogError("No target found!");
 			return;
 		}
 
@@ -94,7 +93,6 @@ public class EnemyControl : MonoBehaviour {
 				return;
 			}
 			
-			Debug.Log("End of path reached.");
 			pathIsEnded = true;
 			
 			return;

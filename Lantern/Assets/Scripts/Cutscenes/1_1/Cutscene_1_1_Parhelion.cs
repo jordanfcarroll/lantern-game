@@ -5,13 +5,15 @@ using UnityEngine;
 
 public class Cutscene_1_1_Parhelion : Cutscene {
 
-	private bool triggered = false;
 	public GameObject parhellion;
 	public GameObject fixedFlame;
 	public GameObject parhellionSpotlight;
 	public GameObject fixedFlameSpotlight;
 
 	public override IEnumerator ExecuteCutscene () {
+		if (triggered) {
+			yield break;
+		}
 		// Flip triggered flag
 		triggered = true;
 

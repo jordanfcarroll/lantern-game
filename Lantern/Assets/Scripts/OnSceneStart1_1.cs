@@ -7,7 +7,7 @@ public class OnSceneStart1_1 : MonoBehaviour {
 
 	public GameObject Opening_Cutscene;
 	// Use this for initialization
-	void Awake () {
+	void Start () {
 		Opening_Cutscene.GetComponent<Cutscene_1_1_Opening>().RunCutscene();
 	}
 	

@@ -6,7 +6,7 @@ using UnityEngine;
 public class LanternInteract : Interact
 {
 	public override void endAction () {
-        FindObjectOfType<GameManager_1>().shouldTriggerDoorUnlock = true;
+        FindObjectOfType<GameManager_1>().generalFlags[ "shouldTriggerDoorUnlock" ] = true;
         FindObjectOfType<PlayerControl>().enableLantern();
     }
 }

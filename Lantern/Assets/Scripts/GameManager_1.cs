@@ -1,11 +1,63 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
+[System.Serializable]
 public class GameManager_1 : MonoBehaviour {
 
 	public static GameManager_1 Instance { get; private set; }
+	public List<Cutscene> cutsceneList = new List<Cutscene>();
+	public PlayerControl player; 
+	public CameraController camera; 
+	public SaveData saveGame;
 
+    private void Save() {
+        SaveLoad.Save();
+    }
+    
+    public void Load() {
+        if (SaveLoad.SaveExists("savegame")) {
+			// get save file and assign it to save game
+            SaveLoad.Load();
+
+			// Assign variables out to objects
+
+			//Player
+			PlayerData playerData = saveGame.MyPlayerData;
+            player.transform.position = new Vector3(playerData.xPos, playerData.yPos, playerData.zPos);
+			// Set camera to player position
+			float cameraZ = camera.transform.position.z;
+            camera.transform.position = new Vector3(playerData.xPos, playerData.yPos, cameraZ);
+
+			// Flags
+			generalFlags = saveGame.flags;
+
+			// Cutscenes
+			for (var i = 0; i < saveGame.cutsceneList.Count; i++) {
+				Cutscene cutscene = cutsceneList.Find(x => x.id == saveGame.cutsceneList[i].id);
+				cutscene.triggered = saveGame.cutsceneList[i].triggered; 
+			}
+        }
+    }
+
+	void LoadSceneSaveData(Scene scene, LoadSceneMode mode) {
+	}
+
+    void LateUpdate () {
+        // tempRend.sortingOrder = (int)Camera.main.WorldToScreenPoint (tempRend.bounds.min).y * -1;
+    }
+
+    void OnDisable()
+    {
+        GameEvents.SaveInitiated -= Save;
+		SceneManager.sceneLoaded -= LoadSceneSaveData;
+    }
+
+    void OnEnable()
+    {
+		SceneManager.sceneLoaded += LoadSceneSaveData;
+    }
 	// values
 
 	// World States
@@ -23,6 +75,10 @@ public class GameManager_1 : MonoBehaviour {
 		{"east_key_misc_1", false},
 		// null keys do not exist, for locked doors that can never be opened
 		{"null_key", false}
+	};
+
+	public Dictionary<string,bool> generalFlags  = new Dictionary<string, bool>() {
+		{"shouldTriggerDoorUnlock", false},
 	};
 
 	public Dictionary<string,bool> westLamps = new Dictionary<string, bool>() {
@@ -47,9 +103,6 @@ public class GameManager_1 : MonoBehaviour {
 	public bool EastBurnInActive = false;
 	public bool CentralBurnInActive = false;
 
-	// Open
-	public bool shouldTriggerDoorUnlock = false;
-
 	// West
 	public bool bloodRoomVisited = false;
 
@@ -71,6 +124,11 @@ public class GameManager_1 : MonoBehaviour {
 		}
 		else {
 			Destroy(gameObject);
+		}
+
+        GameEvents.SaveInitiated += Save;
+		if (!GameManager_Meta.Instance.isNewGame) {
+        	Load();
 		}
 	}
 

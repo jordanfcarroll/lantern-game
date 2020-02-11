@@ -80,7 +80,6 @@ public class LampControl : MonoBehaviour {
 
     IEnumerator IncreaseLightIntensity () {
         while (GetComponentInChildren<Light>().intensity <= LampLightMaxIntensity) {
-            Debug.Log(GetComponentInChildren<Light>().intensity);
             GetComponentInChildren<Light>().intensity += 0.2f;
             yield return new WaitForSeconds(0f);;
         }

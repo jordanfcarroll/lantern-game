@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class Cutscene_1_1_Opening : Cutscene {
 
-	private bool triggered = false;
 	public Transform playerMovePoint;
 	public GameObject cameraPoint;
 	public GameObject collider;
@@ -14,6 +13,11 @@ public class Cutscene_1_1_Opening : Cutscene {
 	public Dialogue dialogue;
 
 	public override IEnumerator ExecuteCutscene () {
+		if (triggered) {
+			yield return new WaitForSeconds(2);
+			FindObjectOfType<BackgroundUIFader>().zeroOut();
+			yield break;
+		}	
 		// Flip triggered flag
 		triggered = true;
 		// FindObjectOfType<BackgroundUIFader>().start(2f);

@@ -9,7 +9,7 @@ public class UnlockDoorTrigger : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.name == "Player" && FindObjectOfType<GameManager_1>().shouldTriggerDoorUnlock && !triggered)
+        if (col.gameObject.name == "Player" && FindObjectOfType<GameManager_1>().generalFlags[ "shouldTriggerDoorUnlock" ] && !triggered)
         {
             triggered = true;
             cutscene.GetComponent<Cutscene_1_1_UnlockDoor>().RunCutscene();

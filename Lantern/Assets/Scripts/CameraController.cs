@@ -35,6 +35,7 @@ public class CameraController : MonoBehaviour {
 
 	void Awake () {
         GetComponent<Camera>().orthographicSize = defaultZoom;
+		followPlayer();
 	}
 
 	// Update is called once per frame

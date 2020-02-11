@@ -4,6 +4,9 @@ using UnityEngine;
 
 
 public class Cutscene : MonoBehaviour {
+    public string id;
+    public bool triggered;
+
     public void RunCutscene()
         {
             StartCoroutine(ExecuteCutscene());

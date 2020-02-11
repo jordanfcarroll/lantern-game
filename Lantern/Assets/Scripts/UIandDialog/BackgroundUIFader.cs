@@ -41,6 +41,11 @@ public class BackgroundUIFader : MonoBehaviour {
 		StartCoroutine(GetBrighterCor(seconds));
 	}
 
+	public void zeroOut () {
+		color.a = 0f;
+		GetComponent<Image>().color = color;
+	}
+
 	IEnumerator FadeIn(Action callback) {
 		while(color.a > 0f) {
 

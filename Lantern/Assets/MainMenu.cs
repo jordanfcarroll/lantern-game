@@ -9,12 +9,24 @@ public class MainMenu : MonoBehaviour {
 	private int LastScene = 1;
 	public int selected = 0;
 	public int ButtonCount;
+
 	private float lastDirection;
+	private float inputTimer = 0f;
+	private float INPUT_DELAY = 0.3f;
+	public static bool SaveDataExists = false;
 
 	private Color FaderColor;
 	public GameObject Fader;
 
 	void Awake () {
+		// Check for Save File
+		if (SaveLoad.SaveExists("savegame")) {
+			SaveDataExists = true;
+		}
+		Destroy(GameManager_1.Instance);
+
+
+
 		FaderColor = Fader.GetComponent<Image>().color;
 		Fader.GetComponent<Image>().color = FaderColor;
 	}
@@ -22,9 +34,11 @@ public class MainMenu : MonoBehaviour {
 	private void Update() {
 		if (Input.GetButtonDown("Fire3")) {
 			if (selected == 0) {
-				StartCoroutine(FadeOutAndStart());
+				this.PlayGame();
 			}
-			else if (selected == 1) {
+			else if (selected == 1 && SaveDataExists) {
+				this.ContinueGame();
+			} else {
 				this.QuitGame();
 			}
 		}
@@ -33,10 +47,11 @@ public class MainMenu : MonoBehaviour {
 		if (direction == lastDirection) {
 			return;
 		}
+		// StartCoroutine(TimeInput());
 		lastDirection = direction;
 
 		if (direction == 1) {
-			if (selected == ButtonCount -1) {
+			if (selected == ButtonCount - 1) {
 				selected = 0;
 			}
 			else {
@@ -51,13 +66,14 @@ public class MainMenu : MonoBehaviour {
 				selected--;
 			}
 		}
+	}
 
-
-		
+	public void PlayGame () {
+		StartCoroutine(FadeOutAndStart());
 	}
 
 	public void ContinueGame () {
-		SceneManager.LoadScene(LastScene);
+		StartCoroutine(FadeOutAndContinue());
 	}
 
 	public void QuitGame () {
@@ -66,20 +82,42 @@ public class MainMenu : MonoBehaviour {
 	}
 
 	public void activateButton(int button) {
+		Debug.Log(button);
 		selected = button;
 	}
 
+	IEnumerator TimeInput() {
+		while (inputTimer < INPUT_DELAY) {
+			inputTimer += 0.01f;
+			yield return new WaitForSeconds(0.01f);
+		}
+		inputTimer = 0f;
+		lastDirection = 0;
+	}
 
 	IEnumerator FadeOutAndStart () {
-		Debug.Log("Play!");
+		Fader.SetActive(true);
 		while(FaderColor.a < 1f) {
 
-			Debug.Log(FaderColor);
             FaderColor.a += 0.005f;
             Fader.GetComponent<Image>().color = FaderColor;
 			yield return new WaitForSeconds(0f);
 		}
-		// SceneManager.LoadScene(0);
+		GameManager_Meta.Instance.isNewGame = true;
+		SceneManager.LoadScene(1);
+	}
+	IEnumerator FadeOutAndContinue () {
+		Debug.Log("Continue!");
+		Fader.SetActive(true);
+		while(FaderColor.a < 1f) {
+
+            FaderColor.a += 0.005f;
+            Fader.GetComponent<Image>().color = FaderColor;
+			yield return new WaitForSeconds(0f);
+		}
+		GameManager_Meta.Instance.isNewGame = false;
+		int sceneIndex = SaveLoad.LoadSaveScene();
+		SceneManager.LoadScene(sceneIndex);
 	}
 
 }

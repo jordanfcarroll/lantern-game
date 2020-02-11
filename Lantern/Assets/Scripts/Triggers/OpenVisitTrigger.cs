@@ -8,7 +8,7 @@ public class OpenVisitTrigger : MonoBehaviour {
     {
         if (col.gameObject.name == "Player")
         {
-            FindObjectOfType<GameManager_1>().shouldTriggerDoorUnlock = true;
+            FindObjectOfType<GameManager_1>().generalFlags[ "shouldTriggerDoorUnlock" ] = true;
         }
     }
 

@@ -5,10 +5,12 @@ using UnityEngine;
 
 public class Cutscene_1_1_UnlockDoor : Cutscene {
 
-	private bool triggered = false;
 	public GameObject door;
 
 	public override IEnumerator ExecuteCutscene () {
+		if (triggered) {
+			yield break;
+		}
 		// Flip triggered flag
 		triggered = true;
 

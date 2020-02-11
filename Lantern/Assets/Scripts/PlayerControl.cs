@@ -12,7 +12,19 @@ using UnityEngine;
 // Fix code reuse
 
 
+
 public class PlayerControl : MonoBehaviour {
+
+    //public static PlayerControl Instance{ get; set;}
+	//private void Awake() {
+	//	if (Instance == null) {
+		//	Instance = this;
+		//	DontDestroyOnLoad(gameObject);
+	//	}
+		//else {
+//			//Destroy(gameObject);
+	//	}
+//	}
 
     private bool lanternDisabled = false;
 
@@ -82,15 +94,17 @@ public class PlayerControl : MonoBehaviour {
         spotlightTriggerZone.GetComponent<BoxCollider2D>().enabled = false;
     }
 
-    void Awake () {
-        // Load to correct zone?
-    }
- 
-    void LateUpdate () {
-        // tempRend.sortingOrder = (int)Camera.main.WorldToScreenPoint (tempRend.bounds.min).y * -1;
+    private void Save() {
+        PlayerData playerData = new PlayerData(transform);
+        string save = "save";
+        // SaveLoad.Save(playerData,"PlayerData");
     }
 	
 	void Update () {
+
+        if ( PauseMenuGame.GameIsPaused ) {
+            return;
+        }
 
        if (FindObjectOfType<GameManager_1>().hasLantern) {
            // Set lantern sprites
@@ -177,7 +191,6 @@ public class PlayerControl : MonoBehaviour {
 
             
             // if (LastMoveX < 0 && -0.5 < LastMoveY < 0.5) {
-            //     Debug.Log(GameObject.Find("Player_Lantern_Light").GetComponent<Transform>().localPosition);
             //     var pos = GameObject.Find("Player_Lantern_Light").GetComponent<Transform>().localPosition;
             //     pos.x = -.23f;
             //     GameObject.Find("Player_Lantern_Light").GetComponent<Transform>().localPosition = pos;
